@@ -29,10 +29,15 @@
 }
 
 body {
-    background-image: url("/assets/images/carbon_fibre_big.png");
+    background-image: url("/assets/images/BarCampNola9.png");
     background-size: tile;
-    color: #f9f9f9;
-    font-family: "Arial", sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+ 
+ 
 }
 
 section, footer {
