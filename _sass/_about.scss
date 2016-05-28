@@ -1,10 +1,77 @@
 #about {
-  background:
-     url(/assets/images/BarcampNola.png)    /* image */
-     top center / 200px 200px /* position / size */
-     no-repeat                /* repeat */
-     fixed                    /* attachment */
-     padding-box              /* origin */
-     content-box              /* clip */
-     black;                     /* color */
+    padding-top: 150px !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.about-text {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  line-height: 130%;
+}
+
+
+.video-header {
+  text-align: center;
+  margin: 0px 0 40px 0;
+  font-size: 2.8em;
+  line-height: 150%;
+}
+
+.video-container {
+  margin: 0 auto;
+  width: 920px;
+}
+
+.videotext {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+
+  &.left {
+    padding-right: 38px;
+
+    @media screen and (max-width: 1000px) {
+      padding: 0;
+
+    justify-content: center;
+
+    }
+  }
+
+  &.right {
+    padding-left: 38px;
+
+    @media screen and (max-width: 1000px) {
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
+}
+
+.video-iframe {
+  margin: 0 auto;
+  display: inline-block;
+  width:  800px;
+
+  @media screen and (max-width: 1000px) {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.copy-text {
+    flex-grow: 1;
+    min-width: 400px;
+    max-width: 800px;
+}
+
+.video {
+  height: 500px;
+  width: 100%;
 }

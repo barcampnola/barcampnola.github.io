@@ -1,0 +1,31 @@
+<section id="sponsors">
+    <h2>Our Uncanny Sponsors</h2>
+    <div class="sponsors-container">
+        <div class="sponsor-spotlight">
+            <div class="large-logo">
+                <img src="" alt="" />
+            </div>
+            <div class="description">
+                <div class="name">
+
+                </div>
+                <p>
+
+                </p>
+            </div>
+        </div>
+        <div class="sponsors-menu">
+            {% for s in site.data.sponsors %}
+
+            <div class="sponsor-icon" data-large-logo="{{s.largeLogoPath}}" data-description="{{s.description}}">
+                <a href="{{s.website}}"><img src="{{s.smallLogoPath}}" alt="{{s.name}}"/></a>
+            </div>
+
+            {% endfor %}
+        </div>
+    </div>
+    <div class="sponsor-package">
+        <h3>Want to become a sponser of barcamp and see your logo here?</h3>
+        <a href="/assets/BarCampNola2015_SponsorshipOpportunity.pdf" target="blank">Download&nbsp;&nbsp;Sponsorship&nbsp;&nbsp;Packet</a>
+    </div>
+</section>
