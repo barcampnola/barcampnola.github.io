@@ -13,13 +13,19 @@
 
 @font-face {
     font-family: 'Futura';
-
     font-weight: normal;
     font-style: normal;
 }
 
+.full_width {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
 body {
-    background-image: url("/assets/images/carbon_fibre_big.png");
+    background-image: url("/assets/website_images/brickwork1.jpg");
     background-size: tile;
     color: #f9f9f9;
     font-family: "Arial", sans-serif;
@@ -40,21 +46,6 @@ h2, h3 {
     margin: 20px 0px;
 }
 
-#lightning_canvas {
-  pointer-events: none;
-}
-
-.thor{
-  height: 300px;
-}
-
-.superhero-background {
-  width: 300px;
-  float: left;
-  background-size: 300px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 .clearfix {
   overflow: auto;
