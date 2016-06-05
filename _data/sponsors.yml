@@ -1,8 +1,8 @@
-# - name: Tulane School of Engineering
-#   smallLogoPath: /assets/sponsors/tulane.png
-#   largeLogoPath: /assets/sponsors/big/tulane.png
-#   description: Tulane University is one of the nation's most prestigious educational and research institutions. Founded in 1834 in New Orleans, Tulane offers degrees in architecture, business, law, liberal arts, medicine, public health and tropical medicine, the sciences and engineering, and social work.
-#   website: http://tulane.edu/
+- name: Tulane School of Engineering
+  smallLogoPath: /assets/sponsors/tulane.png
+  largeLogoPath: /assets/sponsors/big/tulane.png
+  description: Tulane University is one of the nation's most prestigious educational and research institutions. Founded in 1834 in New Orleans, Tulane offers degrees in architecture, business, law, liberal arts, medicine, public health and tropical medicine, the sciences and engineering, and social work.
+  website: http://tulane.edu/
 
 # - name: Apptitude
 #   smallLogoPath: /assets/sponsors/apptitude.png
@@ -10,11 +10,17 @@
 #   description: Apptitude helps businesses and organizations just like yours launch amazing apps and websites for iOS, Android, and wearables.
 #   website: https://apptitude.io/
 
-# - name: Mark Anderson
-#   smallLogoPath: /assets/sponsors/mark-anderson.png
-#   largeLogoPath: /assets/sponsors/big/mark-anderson.png
-#   description: Testing, testing!
-#   website: https://www.youtube.com/watch?v=qfxUt9UM0nc
+- name: Mark Anderson
+  smallLogoPath: /assets/sponsors/mark-anderson.png
+  largeLogoPath: /assets/sponsors/big/mark-anderson.png
+  description: Testing, testing!
+  website: https://www.youtube.com/watch?v=qfxUt9UM0nc
+
+- name: Online Optimism
+  smallLogoPath: /assets/sponsors/Online-Optimism-Homepage-Logo2.jpg
+  largeLogoPath: /assets/sponsors/Online-Optimism-Homepage-Logo2.jpg
+  description: New Orleans’ Best Marketing Team
+  website: http://www.onlineoptimism.com/
 
 # - name: GE
 #   smallLogoPath: /assets/sponsors/ge.png
@@ -22,11 +28,11 @@
 #   description: GE is about designing, developing and deploying the next generation of software, computer security and infrastructure technologies.
 #   website: http://www.gecapital.com/en/
 
-# - name: Surge
-#   smallLogoPath: /assets/sponsors/surge.png
-#   largeLogoPath: /assets/sponsors/big/surge.png
-#   description: Surge's mission is to provide high-end software development & consulting services to their clients that are unmatched in the industry.
-#   website: http://www.surgeforward.com/
+- name: Surge
+  smallLogoPath: /assets/sponsors/surge.png
+  largeLogoPath: /assets/sponsors/big/surge.png
+  description: Surge's mission is to provide high-end software development & consulting services to their clients that are unmatched in the industry.
+  website: http://www.surgeforward.com/
 
 # - name: FlatStack
 #   smallLogoPath: /assets/sponsors/flat-stack.png
