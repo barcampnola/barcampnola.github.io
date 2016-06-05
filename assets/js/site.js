@@ -4,42 +4,6 @@
         return Math.floor(Math.random() * (max - min)) + min;
     }
 
-    var lt = new lightning({
-        glow: false
-    });
-    var draw = false;
-
-    setInterval(function() {
-        if (draw) {
-            lt.hide();
-            var ob = randomSide();
-            offset = $(".thor").offset();
-            lt.show(ob.startX, ob.startY, offset.left + 112, offset.top + 32);
-            num = rand(1, 5);
-            $(".thor").parent().css("background-image", "url('/assets/images/boom-bg" + num + ".png')");
-        }
-    }, 100)
-
-
-    // Thor / Trumpet animation
-    $(document).on('mouseenter', ".after-party", function(e) {
-        $(".thor").attr("src", "/assets/images/Bario-2.png")
-        var ob = randomSide();
-        offset = $(".thor").offset();
-        lt.show(ob.startX, ob.startY, offset.left + 112, offset.top + 32);
-        draw = true;
-        num = rand(1, 5);
-        $(".thor").parent().css("background-image", "url('/assets/images/boom-bg" + num + ".png')");
-    });
-
-    $(document).on('mouseleave', ".after-party", function() {
-        $(".thor").attr("src", "/assets/images/Bario-1.png")
-        draw = false;
-        lt.hide();
-        $(".thor").parent().css("background-image", "")
-    });
-
-
 
     $('#splash nav a.normal, #header a.normal').each(function (i, el) {
         var $el = $(el);
@@ -50,10 +14,6 @@
                 scrollTop: section.offset().top
             }, 1000);
         })
-    });
-
-    $(window).load(function() {
-         $('.stan-lee').raptorize();
     });
 
     // ----- show / hide header on scroll ----- //
