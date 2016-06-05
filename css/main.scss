@@ -5,25 +5,15 @@
 
 
 @font-face {
-    font-family: 'Avengeance';
-    src: url('/assets/fonts/avengeance_heroic_avenger-webfont.eot');
-    src: url('/assets/fonts/avengeance_heroic_avenger-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/avengeance_heroic_avenger-webfont.woff2') format('woff2'),
-         url('/assets/fonts/avengeance_heroic_avenger-webfont.woff') format('woff'),
-         url('/assets/fonts/avengeance_heroic_avenger-webfont.ttf') format('truetype'),
-         url('/assets/fonts/avengeance_heroic_avenger-webfont.svg#avengeance_heroic_avengerRg') format('svg');
+    font-family: 'Futura';
+
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Komika';
-    src: url('/assets/fonts/Komika_Hand-webfont.eot');
-    src: url('/assets/fonts/Komika_Hand-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/Komika_Hand-webfont.woff2') format('woff2'),
-         url('/assets/fonts/Komika_Hand-webfont.woff') format('woff'),
-         url('/assets/fonts/Komika_Hand-webfont.ttf') format('truetype'),
-         url('/assets/fonts/Komika_Hand-webfont.svg') format('svg');
+    font-family: 'Futura';
+
     font-weight: normal;
     font-style: normal;
 }
@@ -46,7 +36,7 @@ a, a:visited {
 }
 
 h2, h3 {
-    font-family: Komika;
+    font-family: Futura;
     margin: 20px 0px;
 }
 

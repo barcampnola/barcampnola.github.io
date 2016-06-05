@@ -1,155 +1,155 @@
-- name: Tulane School of Engineering
-  smallLogoPath: /assets/sponsors/tulane.png
-  largeLogoPath: /assets/sponsors/big/tulane.png
-  description: Tulane University is one of the nation's most prestigious educational and research institutions. Founded in 1834 in New Orleans, Tulane offers degrees in architecture, business, law, liberal arts, medicine, public health and tropical medicine, the sciences and engineering, and social work.
-  website: http://tulane.edu/
+# - name: Tulane School of Engineering
+#   smallLogoPath: /assets/sponsors/tulane.png
+#   largeLogoPath: /assets/sponsors/big/tulane.png
+#   description: Tulane University is one of the nation's most prestigious educational and research institutions. Founded in 1834 in New Orleans, Tulane offers degrees in architecture, business, law, liberal arts, medicine, public health and tropical medicine, the sciences and engineering, and social work.
+#   website: http://tulane.edu/
 
-- name: Apptitude
-  smallLogoPath: /assets/sponsors/apptitude.png
-  largeLogoPath: /assets/sponsors/big/apptitude.png
-  description: Apptitude helps businesses and organizations just like yours launch amazing apps and websites for iOS, Android, and wearables.
-  website: https://apptitude.io/
+# - name: Apptitude
+#   smallLogoPath: /assets/sponsors/apptitude.png
+#   largeLogoPath: /assets/sponsors/big/apptitude.png
+#   description: Apptitude helps businesses and organizations just like yours launch amazing apps and websites for iOS, Android, and wearables.
+#   website: https://apptitude.io/
 
-- name: Mark Anderson
-  smallLogoPath: /assets/sponsors/mark-anderson.png
-  largeLogoPath: /assets/sponsors/big/mark-anderson.png
-  description: Testing, testing!
-  website: https://www.youtube.com/watch?v=qfxUt9UM0nc
+# - name: Mark Anderson
+#   smallLogoPath: /assets/sponsors/mark-anderson.png
+#   largeLogoPath: /assets/sponsors/big/mark-anderson.png
+#   description: Testing, testing!
+#   website: https://www.youtube.com/watch?v=qfxUt9UM0nc
 
-- name: GE
-  smallLogoPath: /assets/sponsors/ge.png
-  largeLogoPath: /assets/sponsors/big/ge.png
-  description: GE is about designing, developing and deploying the next generation of software, computer security and infrastructure technologies.
-  website: http://www.gecapital.com/en/
+# - name: GE
+#   smallLogoPath: /assets/sponsors/ge.png
+#   largeLogoPath: /assets/sponsors/big/ge.png
+#   description: GE is about designing, developing and deploying the next generation of software, computer security and infrastructure technologies.
+#   website: http://www.gecapital.com/en/
 
-- name: Surge
-  smallLogoPath: /assets/sponsors/surge.png
-  largeLogoPath: /assets/sponsors/big/surge.png
-  description: Surge's mission is to provide high-end software development & consulting services to their clients that are unmatched in the industry.
-  website: http://www.surgeforward.com/
+# - name: Surge
+#   smallLogoPath: /assets/sponsors/surge.png
+#   largeLogoPath: /assets/sponsors/big/surge.png
+#   description: Surge's mission is to provide high-end software development & consulting services to their clients that are unmatched in the industry.
+#   website: http://www.surgeforward.com/
 
-- name: FlatStack
-  smallLogoPath: /assets/sponsors/flat-stack.png
-  largeLogoPath: /assets/sponsors/big/flat-stack.png
-  description: FlatStack is a global software development company with offices in New Orleans, Louisiana and Kazan, Russia
-  website: http://www.flatstack.com/
+# - name: FlatStack
+#   smallLogoPath: /assets/sponsors/flat-stack.png
+#   largeLogoPath: /assets/sponsors/big/flat-stack.png
+#   description: FlatStack is a global software development company with offices in New Orleans, Louisiana and Kazan, Russia
+#   website: http://www.flatstack.com/
 
-- name: Hop & Jaunt
-  smallLogoPath: /assets/sponsors/big/hop_and_jaunt_dark.png
-  largeLogoPath: /assets/sponsors/big/hop_and_jaunt_dark.png
-  description: Hop & Jaunt is a New Orleans based creative agency crafting brand stories and creating better products through design.
-  website: http://www.hopandjaunt.com/
+# - name: Hop & Jaunt
+#   smallLogoPath: /assets/sponsors/big/hop_and_jaunt_dark.png
+#   largeLogoPath: /assets/sponsors/big/hop_and_jaunt_dark.png
+#   description: Hop & Jaunt is a New Orleans based creative agency crafting brand stories and creating better products through design.
+#   website: http://www.hopandjaunt.com/
 
-- name: 4.0 Schools
-  smallLogoPath: /assets/sponsors/40logo.png
-  largeLogoPath: /assets/sponsors/big/40logo.png
-  description: 4.0 schools is a community of entrepreneurs, educators, and families that believes school can be dramatically better for every child.
-  website: http://4pt0.org/
+# - name: 4.0 Schools
+#   smallLogoPath: /assets/sponsors/40logo.png
+#   largeLogoPath: /assets/sponsors/big/40logo.png
+#   description: 4.0 schools is a community of entrepreneurs, educators, and families that believes school can be dramatically better for every child.
+#   website: http://4pt0.org/
 
-- name: Federated Sample
-  smallLogoPath: /assets/sponsors/fedsample.png
-  largeLogoPath: /assets/sponsors/big/fedsample.png
-  description:
-  website: http://www.federatedsample.com/
+# - name: Federated Sample
+#   smallLogoPath: /assets/sponsors/fedsample.png
+#   largeLogoPath: /assets/sponsors/big/fedsample.png
+#   description:
+#   website: http://www.federatedsample.com/
   
-- name: Susco Solutions
-  smallLogoPath: /assets/sponsors/susco.png
-  largeLogoPath: /assets/sponsors/big/susco.png
-  description: Software Solutions for Business Process Improvement
-  website: http://www.suscosolutions.com/
+# - name: Susco Solutions
+#   smallLogoPath: /assets/sponsors/susco.png
+#   largeLogoPath: /assets/sponsors/big/susco.png
+#   description: Software Solutions for Business Process Improvement
+#   website: http://www.suscosolutions.com/
 
-- name: LispCast
-  smallLogoPath: /assets/sponsors/big/LispCast-Logo.png
-  largeLogoPath: /assets/sponsors/big/LispCast-Logo.png
-  description: 
-  website: http://www.lispcast.com/
+# - name: LispCast
+#   smallLogoPath: /assets/sponsors/big/LispCast-Logo.png
+#   largeLogoPath: /assets/sponsors/big/LispCast-Logo.png
+#   description: 
+#   website: http://www.lispcast.com/
 
-- name: Iconoclast Labs
-  smallLogoPath: /assets/sponsors/big/iconoclast-labs.png
-  largeLogoPath: /assets/sponsors/big/iconoclast-labs.png
-  description: Amazing Apps
-  website: http://www.iconoclastlabs.com/
+# - name: Iconoclast Labs
+#   smallLogoPath: /assets/sponsors/big/iconoclast-labs.png
+#   largeLogoPath: /assets/sponsors/big/iconoclast-labs.png
+#   description: Amazing Apps
+#   website: http://www.iconoclastlabs.com/
 
-- name: LOOKFAR
-  smallLogoPath: /assets/sponsors/big/lookfarlogo.png
-  largeLogoPath: /assets/sponsors/big/lookfarlogo.png
-  description: An idea acceleration company
-  website: http://lookfar.com/
+# - name: LOOKFAR
+#   smallLogoPath: /assets/sponsors/big/lookfarlogo.png
+#   largeLogoPath: /assets/sponsors/big/lookfarlogo.png
+#   description: An idea acceleration company
+#   website: http://lookfar.com/
 
-- name: GNO, Inc
-  smallLogoPath: /assets/sponsors/gno.jpg
-  largeLogoPath: /assets/sponsors/gno.jpg
-  description:
-  website: http://gnoinc.org/
+# - name: GNO, Inc
+#   smallLogoPath: /assets/sponsors/gno.jpg
+#   largeLogoPath: /assets/sponsors/gno.jpg
+#   description:
+#   website: http://gnoinc.org/
 
-- name: Olark
-  smallLogoPath: /assets/sponsors/big/olark.png
-  largeLogoPath: /assets/sponsors/big/olark.png
-  description:
-  website: https://www.olark.com/
+# - name: Olark
+#   smallLogoPath: /assets/sponsors/big/olark.png
+#   largeLogoPath: /assets/sponsors/big/olark.png
+#   description:
+#   website: https://www.olark.com/
 
-- name: GitHub
-  smallLogoPath: /assets/sponsors/big/GitHub_Logo.png
-  largeLogoPath: /assets/sponsors/big/GitHub_Logo.png
-  description:
-  website: https://github.com/
+# - name: GitHub
+#   smallLogoPath: /assets/sponsors/big/GitHub_Logo.png
+#   largeLogoPath: /assets/sponsors/big/GitHub_Logo.png
+#   description:
+#   website: https://github.com/
 
-- name: LaunchPad
-  smallLogoPath: /assets/sponsors/big/launchpad.png
-  largeLogoPath: /assets/sponsors/big/launchpad.png
-  description:
-  website: http://www.lp.co/
+# - name: LaunchPad
+#   smallLogoPath: /assets/sponsors/big/launchpad.png
+#   largeLogoPath: /assets/sponsors/big/launchpad.png
+#   description:
+#   website: http://www.lp.co/
 
-- name: TurboSquid
-  smallLogoPath: /assets/sponsors/big/Squid-Logo.jpg
-  largeLogoPath: /assets/sponsors/big/Squid-Logo.jpg
-  description:
-  website: http://www.turbosquid.com/
+# - name: TurboSquid
+#   smallLogoPath: /assets/sponsors/big/Squid-Logo.jpg
+#   largeLogoPath: /assets/sponsors/big/Squid-Logo.jpg
+#   description:
+#   website: http://www.turbosquid.com/
 
-- name: DDD
-  smallLogoPath: /assets/sponsors/big/DDD.jpg
-  largeLogoPath: /assets/sponsors/big/DDD.jpg
-  description:
-  website: http://downtownnola.com/
+# - name: DDD
+#   smallLogoPath: /assets/sponsors/big/DDD.jpg
+#   largeLogoPath: /assets/sponsors/big/DDD.jpg
+#   description:
+#   website: http://downtownnola.com/
 
-- name: Kickboard
-  smallLogoPath: /assets/sponsors/kickboard_logo_web_small.png
-  largeLogoPath: /assets/sponsors/kickboard_logo_web_small.png
-  description:
-  website: http://www.kickboardforteachers.com/
+# - name: Kickboard
+#   smallLogoPath: /assets/sponsors/kickboard_logo_web_small.png
+#   largeLogoPath: /assets/sponsors/kickboard_logo_web_small.png
+#   description:
+#   website: http://www.kickboardforteachers.com/
 
-- name: Continga Soft
-  smallLogoPath: /assets/sponsors/contingasoft.png
-  largeLogoPath: /assets/sponsors/contingasoft.png
-  description:
-  website: http://www.cotingasoft.com/
+# - name: Continga Soft
+#   smallLogoPath: /assets/sponsors/contingasoft.png
+#   largeLogoPath: /assets/sponsors/contingasoft.png
+#   description:
+#   website: http://www.cotingasoft.com/
 
-- name: iSeatz
-  smallLogoPath: /assets/sponsors/iseatz.png
-  largeLogoPath: /assets/sponsors/iseatz.png
-  description:
-  website: http://www.iseatz.com/
+# - name: iSeatz
+#   smallLogoPath: /assets/sponsors/iseatz.png
+#   largeLogoPath: /assets/sponsors/iseatz.png
+#   description:
+#   website: http://www.iseatz.com/
 
-- name: Revelry
-  smallLogoPath: /assets/sponsors/revelry.png
-  largeLogoPath: /assets/sponsors/revelry.png
-  description:
-  website: http://revelry.co/
+# - name: Revelry
+#   smallLogoPath: /assets/sponsors/revelry.png
+#   largeLogoPath: /assets/sponsors/revelry.png
+#   description:
+#   website: http://revelry.co/
 
-- name: Scandy
-  smallLogoPath: /assets/sponsors/scandy.jpg
-  largeLogoPath: /assets/sponsors/scandy.jpg
-  description:
-  website: https://scandy.co/welcome
+# - name: Scandy
+#   smallLogoPath: /assets/sponsors/scandy.jpg
+#   largeLogoPath: /assets/sponsors/scandy.jpg
+#   description:
+#   website: https://scandy.co/welcome
 
-- name: Entrescan
-  smallLogoPath: /assets/sponsors/entrescan.png
-  largeLogoPath: /assets/sponsors/entrescan.png
-  description:
-  website: http://entrescan.com/
+# - name: Entrescan
+#   smallLogoPath: /assets/sponsors/entrescan.png
+#   largeLogoPath: /assets/sponsors/entrescan.png
+#   description:
+#   website: http://entrescan.com/
 
-- name: HitPath
-  smallLogoPath: assets/sponsors/Hitpath.png
-  largeLogoPath: assets/sponsors/Hitpath.png
-  description:
-  website: http://www.hitpath.com/
+# - name: HitPath
+#   smallLogoPath: assets/sponsors/Hitpath.png
+#   largeLogoPath: assets/sponsors/Hitpath.png
+#   description:
+#   website: http://www.hitpath.com/
