@@ -1,10 +1,19 @@
 #about {
-  background:
-     url(/assets/images/BarcampNola.png)    /* image */
-     top center / 200px 200px /* position / size */
-     no-repeat                /* repeat */
-     fixed                    /* attachment */
-     padding-box              /* origin */
-     content-box              /* clip */
-     black;                     /* color */
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.about-text {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  line-height: 130%;
+}
+
+.copy-text {
+    flex-grow: 1;
+    min-width: 400px;
+    max-width: 800px;
 }
