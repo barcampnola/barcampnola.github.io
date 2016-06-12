@@ -15,7 +15,8 @@
             </div>
         </div>
         <div class="sponsors-menu">
-            {% for s in site.data.sponsors %}
+            {% assign sponsors = site.data.sponsors | sort: 'name' %}
+            {% for s in sponsors  %}
 
             <div class="sponsor-icon" data-large-logo="{{s.largeLogoPath}}" data-description="{{s.description}}">
                 <a href="{{s.website}}"><img src="{{s.smallLogoPath}}" alt="{{s.name}}"/></a>
