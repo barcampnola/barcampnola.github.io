@@ -41,8 +41,8 @@
 #   website: http://www.flatstack.com/
 
 - name: Hop & Jaunt
-  smallLogoPath: /assets/sponsors/big/hop_and_jaunt_dark.png
-  largeLogoPath: /assets/sponsors/big/hop_and_jaunt_dark.png
+  smallLogoPath: /assets/sponsors/hop_and_jaunt.png
+  largeLogoPath: /assets/sponsors/hop_and_jaunt.png
   description: Hop & Jaunt is a New Orleans based creative agency crafting brand stories and creating better products through design.
   website: http://www.hopandjaunt.com/
 
