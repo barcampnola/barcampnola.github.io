@@ -1,0 +1,19 @@
+- name: Old Fashioned Room
+  slots:
+    - name: A great talk by a killer tomato
+      author: A Killer Tomato
+      starts: "9:30"
+    - name: A bad talk by a ruined eggplant
+      author: A ruined eggplant
+      starts: "10:00"
+      double: true
+
+- name: Sazerac Room
+  slots:
+    - name: A wild talk by an yuletide yucca
+      author: A yuletide yucca
+      starts: "10:00"
+      double: true
+    - name: A mixed message from D.A.R.E
+      author: A weird cartoon dog
+      starts: "11:30"
