@@ -33,4 +33,22 @@
     });
     showHideHeader();
     // ----- //
+
+    $('*[data-hover-image]').each(function(index, item) {
+      var preloadImage = $("<img>")
+      var item = $(item)
+      var src = item.attr("src")
+      var hoverSrc = item.data('hover-image')
+
+      preloadImage.attr("src", hoverSrc)
+      preloadImage.css("display","none")
+      $("body").append(preloadImage)
+
+      item.hover(
+        function() { item.attr("src", hoverSrc) },
+        function() { item.attr("src", src) }
+      )
+    });
+
+
 }).call()
