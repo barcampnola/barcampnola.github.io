@@ -90,37 +90,4 @@
         ob.startY = startY;
         return ob;
     }
-
-    $(document).on('click', function(e) {
-        var cursorX = e.pageX;
-        var cursorY = e.pageY;
-
-        var randomImage = Math.floor(Math.random() * 6) + 1;
-        var randomAngle = Math.floor(Math.random() * (41)) - 20;
-
-        var powImage = $("<img>")
-            .attr("src", "/assets/images/pow_" + randomImage + ".png")
-            .attr("class", "pow-image")
-            .attr("width", 300)
-            .attr("height", 300)
-            .css("top", cursorY - 150)
-            .css("left", cursorX - 150)
-            .css("opacity", 1)
-            .css("transform", "rotate(" + randomAngle + "deg)")
-
-        $("body").append(powImage);
-
-        powImage.animate({
-            top: "-=100"
-        }, 200, function() {
-            powImage.animate({
-                opacity: "0"
-            }, 100, function() {
-                powImage.remove();
-            });
-        });
-
-
-    });
-
 }).call()
