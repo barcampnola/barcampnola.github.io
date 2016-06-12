@@ -81,6 +81,8 @@
 
     .sponsor-package {
         text-align: center;
+        display: flex;
+        flex-direction: column;
 
         a {
             color: gold;
@@ -91,8 +93,7 @@
             background-color: #222;
             border: 2px solid white;
             border-radius: 10px;
-            padding: 15px 15px 5px 10px;
-            width: 330px;
+            padding: 15px 10px;
             font-size: 1.8em;
 
             &:hover {
