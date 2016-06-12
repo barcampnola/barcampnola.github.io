@@ -1,0 +1,30 @@
+.string {
+    position: absolute;
+    z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+.string-part-1 {
+    background-image: url('/assets/website_images/string-1.png');
+    width: 17.5vw;
+    height: 60vw;
+    top: 34vw;
+    left: 2.2vw;
+}
+
+.string-part-2 {
+    background-color: #eaedc5;
+    width: 1px;
+    bottom: 43.5vw;
+    left: 2.2vw;
+    top: 78.5vw;
+    opacity: .7;
+}
+
+.string-part-3 {
+    background-image: url('/assets/website_images/string-3.png');
+    width: 14vw;
+    height: 33vw;
+    bottom: 10.5vw;
+    left: 2.2vw;
+}

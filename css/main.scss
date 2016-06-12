@@ -29,6 +29,7 @@ body {
     background-size: tile;
     color: #f9f9f9;
     font-family: "Arial", sans-serif;
+    position: absolute;
 }
 
 section, footer {
@@ -79,5 +80,6 @@ section {
         "about",
         "schedule",
         "location",
-        "sponsors"
+        "sponsors",
+        "string"
 ;
