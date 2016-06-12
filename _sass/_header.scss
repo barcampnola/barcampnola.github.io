@@ -21,11 +21,16 @@
     nav {
         font-family: Futura;
         font-size: 2em;
-        margin-left: 30px;
+        width: 75vw;
 
+        .nav-menu {
+          margin: auto;
+          width: 20em;
+
+        }
         a {
-            display: inline-block;
-            margin: 0px 10px;
+
+            margin-left: 1%;
             transition: color .5s;
 
             &:hover {
@@ -35,14 +40,16 @@
         }
 
         a.register {
+            margin: 0 2%;
             position: absolute;
-            top: 18%;
-            right: 25px;
+            top: 10%;
+            right: 1%;
             color: red;
             font-size: 1.3em;
             border: 2px solid white;
             border-radius: 5px;
-            padding: 15px 15px 5px 10px;
+            padding: 1%;
+
             transition: color .5s;
 
             &:hover {
