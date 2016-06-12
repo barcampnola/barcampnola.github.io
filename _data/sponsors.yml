@@ -22,11 +22,11 @@
   description: New Orleans’ Best Marketing Team
   website: http://www.onlineoptimism.com/
 
-# - name: GE
-#   smallLogoPath: /assets/sponsors/ge.png
-#   largeLogoPath: /assets/sponsors/big/ge.png
-#   description: GE is about designing, developing and deploying the next generation of software, computer security and infrastructure technologies.
-#   website: http://www.gecapital.com/en/
+- name: GE
+  smallLogoPath: /assets/sponsors/ge.png
+  largeLogoPath: /assets/sponsors/big/ge.png
+  description: GE is about designing, developing and deploying the next generation of software, computer security and infrastructure technologies.
+  website: http://www.gecapital.com/en/
 
 - name: Surge
   smallLogoPath: /assets/sponsors/surge.png
@@ -40,23 +40,23 @@
 #   description: FlatStack is a global software development company with offices in New Orleans, Louisiana and Kazan, Russia
 #   website: http://www.flatstack.com/
 
-# - name: Hop & Jaunt
-#   smallLogoPath: /assets/sponsors/big/hop_and_jaunt_dark.png
-#   largeLogoPath: /assets/sponsors/big/hop_and_jaunt_dark.png
-#   description: Hop & Jaunt is a New Orleans based creative agency crafting brand stories and creating better products through design.
-#   website: http://www.hopandjaunt.com/
+- name: Hop & Jaunt
+  smallLogoPath: /assets/sponsors/big/hop_and_jaunt_dark.png
+  largeLogoPath: /assets/sponsors/big/hop_and_jaunt_dark.png
+  description: Hop & Jaunt is a New Orleans based creative agency crafting brand stories and creating better products through design.
+  website: http://www.hopandjaunt.com/
 
-# - name: 4.0 Schools
-#   smallLogoPath: /assets/sponsors/40logo.png
-#   largeLogoPath: /assets/sponsors/big/40logo.png
-#   description: 4.0 schools is a community of entrepreneurs, educators, and families that believes school can be dramatically better for every child.
-#   website: http://4pt0.org/
+- name: 4.0 Schools
+  smallLogoPath: /assets/sponsors/40logo.png
+  largeLogoPath: /assets/sponsors/big/40logo.png
+  description: 4.0 schools is a community of entrepreneurs, educators, and families that believes school can be dramatically better for every child.
+  website: http://4pt0.org/
 
-# - name: Federated Sample
-#   smallLogoPath: /assets/sponsors/fedsample.png
-#   largeLogoPath: /assets/sponsors/big/fedsample.png
-#   description:
-#   website: http://www.federatedsample.com/
+- name: Lucid
+  smallLogoPath: /assets/sponsors/Lucid-footer-2x.png
+  largeLogoPath: /assets/sponsors/Lucid-footer-2x.png
+  description:
+  website: https://luc.id/
   
 # - name: Susco Solutions
 #   smallLogoPath: /assets/sponsors/susco.png
@@ -82,11 +82,11 @@
 #   description: An idea acceleration company
 #   website: http://lookfar.com/
 
-# - name: GNO, Inc
-#   smallLogoPath: /assets/sponsors/gno.jpg
-#   largeLogoPath: /assets/sponsors/gno.jpg
-#   description:
-#   website: http://gnoinc.org/
+- name: GNO, Inc
+  smallLogoPath: /assets/sponsors/gno.jpg
+  largeLogoPath: /assets/sponsors/gno.jpg
+  description:
+  website: http://gnoinc.org/
 
 # - name: Olark
 #   smallLogoPath: /assets/sponsors/big/olark.png
@@ -106,11 +106,11 @@
 #   description:
 #   website: http://www.lp.co/
 
-# - name: TurboSquid
-#   smallLogoPath: /assets/sponsors/big/Squid-Logo.jpg
-#   largeLogoPath: /assets/sponsors/big/Squid-Logo.jpg
-#   description:
-#   website: http://www.turbosquid.com/
+- name: TurboSquid
+  smallLogoPath: /assets/sponsors/big/Squid-Logo.jpg
+  largeLogoPath: /assets/sponsors/big/Squid-Logo.jpg
+  description:
+  website: http://www.turbosquid.com/
 
 # - name: DDD
 #   smallLogoPath: /assets/sponsors/big/DDD.jpg
@@ -118,11 +118,11 @@
 #   description:
 #   website: http://downtownnola.com/
 
-# - name: Kickboard
-#   smallLogoPath: /assets/sponsors/kickboard_logo_web_small.png
-#   largeLogoPath: /assets/sponsors/kickboard_logo_web_small.png
-#   description:
-#   website: http://www.kickboardforteachers.com/
+- name: Kickboard
+  smallLogoPath: /assets/sponsors/kickboard_logo_web_small.png
+  largeLogoPath: /assets/sponsors/kickboard_logo_web_small.png
+  description:
+  website: http://www.kickboardforteachers.com/
 
 # - name: Continga Soft
 #   smallLogoPath: /assets/sponsors/contingasoft.png
@@ -159,3 +159,15 @@
 #   largeLogoPath: assets/sponsors/Hitpath.png
 #   description:
 #   website: http://www.hitpath.com/
+
+- name: Hannah Rhodes
+  smallLogoPath: assets/sponsors/hannahrhodes_logo-1.png
+  largeLogoPath: assets/sponsors/hannahrhodes_logo-1.png
+  description:
+  website: http://hannah-rhodes.com/
+
+- name: Juggle
+  smallLogoPath: assets/sponsors/juggle_logo.png
+  largeLogoPath: assets/sponsors/juggle_logo.png
+  description:
+  website: http://juggle.guru/
