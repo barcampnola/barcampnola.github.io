@@ -1,0 +1,29 @@
+#call-out-string >* {
+    position: absolute;
+    z-index: 1;
+    
+    &:nth-child(1) {
+        background-image: url('/assets/website_images/string-1.png');
+        width: 246px;
+        height: 631px;
+        top: 476px;
+        left: 31px;    
+    }
+
+    &:nth-child(2) {
+        background-color: #eaedc5;
+        width: 1px;
+        height: 4328px;
+        left: 31px;
+        top: 1107px;
+        opacity: .7;
+    }
+    
+    &:nth-child(3) {
+        background-image: url('/assets/website_images/string-3.png');
+        width: 200px;
+        height: 298px;
+        top: 5435px;
+        left: 31px;    
+    }
+}
