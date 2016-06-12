@@ -35,6 +35,22 @@
     // ----- //
 
 
+    var preloadImg = function(imgUrl) {
+      var img = $("<img>")
+      img.attr("src", imgUrl)
+      img.css("display", "none")
+      $("body").append(img)
+    }
+
+    preloadImg("/assets/images/topwindow3.jpg")
+    preloadImg("/assets/images/topwindow1.jpg")
+    preloadImg("/assets/images/topwindow2.jpg")
+    preloadImg("/assets/images/midwindow1.jpg")
+    preloadImg("/assets/images/midwindow2.jpg")
+    preloadImg("/assets/images/midwindow3.jpg")
+    preloadImg("/assets/images/bottomfloor_1.jpg")
+    preloadImg("/assets/images/bottomfloor_2.jpg")
+    preloadImg("/assets/images/bottomfloor_3.jpg")
 
     $("#first_window").bind("mousemove",function(e){
         var offset = $("#first_window").offset();
@@ -91,7 +107,7 @@
         var clickY = e.clientY - offset.top;
         var width = this.clientWidth;
         var height = this.clientHeight;
-        
+
         if((clickX >= 0 && clickX <= this.clientWidth * 0.3)) {
             $("#door").attr('src', "/assets/images/bottomfloor_3.jpg");
         } else if((this.clientWidth * 0.3 && clickX <= this.clientWidth * 0.66667)) {
