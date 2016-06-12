@@ -34,21 +34,71 @@
     showHideHeader();
     // ----- //
 
-    $('*[data-hover-image]').each(function(index, item) {
-      var preloadImage = $("<img>")
-      var item = $(item)
-      var src = item.attr("src")
-      var hoverSrc = item.data('hover-image')
 
-      preloadImage.attr("src", hoverSrc)
-      preloadImage.css("display","none")
-      $("body").append(preloadImage)
 
-      item.hover(
-        function() { item.attr("src", hoverSrc) },
-        function() { item.attr("src", src) }
-      )
+    $("#first_window").bind("mousemove",function(e){
+        var offset = $("#first_window").offset();
+        var clickX = e.clientX - offset.left;
+        var clickY = e.clientY - offset.top;
+        var width = this.clientWidth;
+        var height = this.clientHeight;
+
+        if((clickX >= 0 && clickX <= this.clientWidth * 0.3)) {
+            $("#first_window").attr('src', "/assets/images/topwindow3.jpg");
+        } else if((this.clientWidth * 0.3 && clickX <= this.clientWidth * 0.66667)) {
+            $("#first_window").attr('src', "/assets/images/topwindow1.jpg");
+        } else if((this.clientWidth * 0.66667 && clickX <= this.clientWidth)) {
+            $("#first_window").attr('src', "/assets/images/topwindow2.jpg");
+        }
     });
 
+    $("#second_window").bind("mousemove",function(e){
+        var offset = $("#second_window").offset();
+        var clickX = e.clientX - offset.left;
+        var clickY = e.clientY - offset.top;
+        var width = this.clientWidth;
+        var height = this.clientHeight;
+
+        if((clickX >= 0 && clickX <= this.clientWidth * 0.3)) {
+            $("#second_window").attr('src', "/assets/images/midwindow_2.jpg");
+        } else if((this.clientWidth * 0.3 && clickX <= this.clientWidth * 0.66667)) {
+            $("#second_window").attr('src', "/assets/images/midwindow_1.jpg");
+        } else if((this.clientWidth * 0.66667 && clickX <= this.clientWidth)) {
+            $("#second_window").attr('src', "/assets/images/midwindow_3.jpg");
+        }
+    });
+
+    $("#third_window").bind("mousemove",function(e){
+        var offset = $("#third_window").offset();
+        var clickX = e.clientX - offset.left;
+        var clickY = e.clientY - offset.top;
+        var width = this.clientWidth;
+        var height = this.clientHeight;
+
+        if((clickX >= 0 && clickX <= this.clientWidth * 0.3)) {
+            $("#third_window").attr('src', "/assets/images/topwindow3.jpg");
+        } else if((this.clientWidth * 0.3 && clickX <= this.clientWidth * 0.66667)) {
+            $("#third_window").attr('src', "/assets/images/topwindow1.jpg");
+        } else if((this.clientWidth * 0.66667 && clickX <= this.clientWidth)) {
+            $("#third_window").attr('src', "/assets/images/topwindow2.jpg");
+        }
+    });
+
+
+    $("#door").bind("mousemove",function(e){
+        var offset = $("#door").offset();
+        var clickX = e.clientX - offset.left;
+        var clickY = e.clientY - offset.top;
+        var width = this.clientWidth;
+        var height = this.clientHeight;
+        
+        if((clickX >= 0 && clickX <= this.clientWidth * 0.3)) {
+            $("#door").attr('src', "/assets/images/bottomfloor_3.jpg");
+        } else if((this.clientWidth * 0.3 && clickX <= this.clientWidth * 0.66667)) {
+            $("#door").attr('src', "/assets/images/bottomfloor_2.jpg");
+        } else if((this.clientWidth * 0.66667 && clickX <= this.clientWidth)) {
+            $("#door").attr('src', "/assets/images/bottomfloor_1.jpg");
+        }
+    });
 
 }).call()
