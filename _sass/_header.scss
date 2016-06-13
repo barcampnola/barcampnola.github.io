@@ -4,7 +4,6 @@
     background-image: url("/assets/images/brickwork1.jpg");
     position: fixed;
     height: 90px;
-
     margin: 0px;
     width: 100vw;
     box-shadow: 0px 10px 10px black;
@@ -79,32 +78,34 @@
       height: initial;
       border-bottom: .2em solid #7cb2e0;
 
-      margin: 0px;
-      width: 100vw;
-      box-shadow: 0px 10px 10px black;
-      z-index: 999;
+      // margin: 0px;
+      // width: 100vw;
+      // box-shadow: 0px 10px 10px black;
+      // z-index: 999;
 
       .logo-small {
           display: none;
       }
       .logo-small-text {
+        margin: 0 2%;
         display: flex;
         color: #7cb2e0;
         border: 1px solid #7cb2e0;
-        border-radius: 10px;
+        border-radius: 5px;
         padding: 0.5rem;
       }
 
 
 
       nav {
-          display: flex;
-          font-family: Futura;
+          // display: flex;
+          // font-family: Futura;
           width: auto;
           align-items:baseline;
           justify-content: center;
 
           .nav-menu {
+            padding: 1% 0;
             display: flex;
             justify-content: center;
             flex-grow: 1;
@@ -126,16 +127,16 @@
           }
 
           a.register {
-              margin: 0 2%;
+              // margin: 0 2%;
               position: relative;
               color: red;
               border: 1px solid white;
-              border-radius: 5px;
+              // border-radius: 5px;
               padding: 0.5rem;
-              transition: color .5s;
+              // transition: color .5s;
               font-size: 1em;
               &:hover {
-                  color: gold;
+                  // color: gold;
               }
           }
       }
@@ -186,6 +187,7 @@
             // margin: auto;
             // width: 100vw;
             // align-items: center;
+
             .nav-item {
               display: none;
             }
@@ -203,6 +205,7 @@
           }
 
           a.register {
+              text-decoration: underline;
               // margin: 0 2%;
               // position: relative;
               // color: red;
