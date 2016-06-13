@@ -40,10 +40,14 @@ section, footer {
 }
 
 a, a:visited {
-    color: #f9f9f9;
+    color: #7cb2e0;
     text-decoration: none;
-}
 
+}
+a:hover {
+color: gold;
+transition: color .5s;
+}
 h2, h3 {
     font-family: Futura;
     margin: 20px 0px;
