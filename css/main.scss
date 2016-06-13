@@ -48,7 +48,8 @@ a:hover {
 color: gold;
 transition: color .5s;
 }
-h2, h3 {
+
+h1, h2, h3 {
     font-family: Futura;
     margin: 20px 0px;
 }
@@ -57,6 +58,10 @@ h2, h3 {
 .clearfix {
   overflow: auto;
   zoom: 1;
+}
+
+h1 {
+  font-size: 2em;
 }
 
 h2 {
