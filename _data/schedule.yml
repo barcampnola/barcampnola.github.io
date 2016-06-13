@@ -17,3 +17,13 @@
     - name: A mixed message from D.A.R.E
       author: A weird cartoon dog
       starts: "11:30"
+
+- name: Rexatron Room
+  slots:
+    - name: The Buddhist's guide to outsourcing
+      author: M Night Shamylana
+      starts: "10:00"
+      double: true
+    - name: Which cereal wore it best?
+      author: Jackie-O
+      starts: "11:30"
