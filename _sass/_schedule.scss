@@ -7,17 +7,16 @@
     justify-content: center;
     flex-wrap: wrap;
   }
-  
+
   .day-schedule {
-    margin: auto;
+
   }
-  
+
   .entry {
     font-size: 1.25em;
   }
-  
+
   .day-one, .day-two {
-      flex-grow: 1;
       margin: 20px;
       min-width: 390px;
       max-width: 500px;
@@ -28,14 +27,14 @@
       h4 {
         margin: 1em;
         font-size: 1.75em;
-        text-align: center;
         font-family: Futura;
       }
   }
 
   .entry {
     .time {
-      display: inline;
+      display: inline-flex;
+      width: 3em;
     }
     .thing {
       display: inline;
@@ -85,4 +84,8 @@
   .s4_00 { top: $row_height * 13; }
   .s4_30 { top: $row_height * 14; }
   .s5_00 { top: $row_height * 15; }
+}
+
+div.time {
+  width: 2em;
 }
