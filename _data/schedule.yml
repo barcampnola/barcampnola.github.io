@@ -1,0 +1,179 @@
+- name: Old Fashioned Room
+  slots:
+    - name: ?????
+      author: you
+      starts: "11:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "12:00"
+      double: true
+    - name: Lunch
+      author: our sponsors
+      starts: "1:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "3:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "4:00"
+      double: true
+
+- name: Sazerac Room
+  slots:
+    - name: ?????
+      author: you
+      starts: "11:00"
+    - name: ?????
+      author: you
+      starts: "11:30"
+      double: true
+    - name: ?????
+      author: you
+      starts: "12:30"
+    - name: Lunch
+      author: our sponsors
+      starts: "1:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "3:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "4:00"
+      double: true
+
+- name: Vieux Carre Room
+  slots:
+    - name: ?????
+      author: you
+      starts: "11:00"
+    - name: ?????
+      author: you
+      starts: "11:30"
+      double: true
+    - name: Lunch
+      author: our sponsors
+      starts: "1:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "3:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "4:00"
+      double: true
+
+- name: Negroni Room
+  slots:
+    - name: ?????
+      author: you
+      starts: "11:00"
+    - name: ?????
+      author: you
+      starts: "11:30"
+      double: true
+    - name: Lunch
+      author: our sponsors
+      starts: "1:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "3:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "4:00"
+      double: true
+
+- name: The Straight Up Room
+  slots:
+    - name: ?????
+      author: you
+      starts: "11:00"
+    - name: ?????
+      author: you
+      starts: "11:30"
+      double: true
+    - name: ?????
+      author: you
+      starts: "12:30"
+    - name: Lunch
+      author: our sponsors
+      starts: "1:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+    - name: ?????
+      author: you
+      starts: "2:30"
+    - name: ?????
+      author: you
+      starts: "3:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "4:00"
+      double: true
+
+- name: The Last Word Room
+  slots:
+    - name: ?????
+      author: you
+      starts: "11:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "12:00"
+      double: true
+    - name: Lunch
+      author: our sponsors
+      starts: "1:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+    - name: ?????
+      author: you
+      starts: "2:30"
+      double: true
+    - name: ?????
+      author: you
+      starts: "3:30"
+    - name: ?????
+      author: you
+      starts: "4:00"
+      double: true

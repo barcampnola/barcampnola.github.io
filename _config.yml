@@ -1,8 +1,8 @@
 # Site settings
-title: "BarCampNola 8: Guardians of the Flame"
+title: "BarCampNola 9"
 email: jacqnelson@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  BarCampNola 8: Guardians of the Flame
+  BarCampNola 9: Speakeasy
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://barcampnola.com" # the base hostname & protocol for your site
 twitter_username: barcampnola

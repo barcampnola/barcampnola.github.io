@@ -1,44 +1,9 @@
 (function() {
+
     //generate random number between min and max
     var rand = function(min, max) {
         return Math.floor(Math.random() * (max - min)) + min;
     }
-
-    var lt = new lightning({
-        glow: false
-    });
-    var draw = false;
-
-    setInterval(function() {
-        if (draw) {
-            lt.hide();
-            var ob = randomSide();
-            offset = $(".thor").offset();
-            lt.show(ob.startX, ob.startY, offset.left + 112, offset.top + 32);
-            num = rand(1, 5);
-            $(".thor").parent().css("background-image", "url('/assets/images/boom-bg" + num + ".png')");
-        }
-    }, 100)
-
-
-    // Thor / Trumpet animation
-    $(document).on('mouseenter', ".after-party", function(e) {
-        $(".thor").attr("src", "/assets/images/Bario-2.png")
-        var ob = randomSide();
-        offset = $(".thor").offset();
-        lt.show(ob.startX, ob.startY, offset.left + 112, offset.top + 32);
-        draw = true;
-        num = rand(1, 5);
-        $(".thor").parent().css("background-image", "url('/assets/images/boom-bg" + num + ".png')");
-    });
-
-    $(document).on('mouseleave', ".after-party", function() {
-        $(".thor").attr("src", "/assets/images/Bario-1.png")
-        draw = false;
-        lt.hide();
-        $(".thor").parent().css("background-image", "")
-    });
-
 
 
     $('#splash nav a.normal, #header a.normal').each(function (i, el) {
@@ -50,10 +15,6 @@
                 scrollTop: section.offset().top
             }, 1000);
         })
-    });
-
-    $(window).load(function() {
-         $('.stan-lee').raptorize();
     });
 
     // ----- show / hide header on scroll ----- //
@@ -74,93 +35,107 @@
     showHideHeader();
     // ----- //
 
-    //get viewport dimensions
-    var viewport = function() {
-        var viewport = new Object();
-        viewport.width = 0;
-        viewport.height = 0;
-        // the more standards compliant browsers (mozilla/netscape/opera/IE7)
-        //use window.innerWidth and window.innerHeight
-        if (typeof window.innerWidth != 'undefined') {
-            viewport.width = window.innerWidth,
-                viewport.height = window.innerHeight
-        } else if (typeof document.documentElement != 'undefined' && typeof document.documentElement.clientWidth !=
-            'undefined' && document.documentElement.clientWidth != 0) {
-            viewport.width = document.documentElement.clientWidth,
-                viewport.height = document.documentElement.clientHeight
-        } else {
-            viewport.width = document.getElementsByTagName('body')[0].clientWidth,
-                viewport.height = document.getElementsByTagName('body')[0].clientHeight
-        }
-        return viewport;
-    };
 
-
-    function randomSide() {
-        var v = viewport();
-        var startX;
-        var startY;
-        var side = Math.random();
-
-        var top = window.pageYOffset
-        var bottom = window.pageYOffset + $(window.top).height();
-        // top
-        if (side <= 0.25) {
-            startX = (0, v.width);
-            startY = 0
-        }
-        // bottom
-        else if (side <= 0.5) {
-            startX = rand(0, v.width);
-            startY = bottom;
-        }
-        // left
-        else if (side <= 0.75) {
-            startX = 0;
-            startY = rand(top, bottom);
-        }
-
-        // right
-        else if (rand <= 1) {
-            startX = v.width;
-            startY = rand(top, bottom);
-        }
-        var ob = {};
-        ob.startX = startX;
-        ob.startY = startY;
-        return ob;
+    var preloadImg = function(imgUrl) {
+      var img = $("<img>")
+      img.attr("src", imgUrl)
+      img.css("display", "none")
+      $("body").append(img)
     }
 
-    $(document).on('click', function(e) {
-        var cursorX = e.pageX;
-        var cursorY = e.pageY;
+    preloadImg("/assets/images/topwindow3.jpg")
+    preloadImg("/assets/images/topwindow1.jpg")
+    preloadImg("/assets/images/topwindow2.jpg")
+    preloadImg("/assets/images/midwindow_1.jpg")
+    preloadImg("/assets/images/midwindow_2.jpg")
+    preloadImg("/assets/images/midwindow_3.jpg")
+    preloadImg("/assets/images/bottomfloor_1.jpg")
+    preloadImg("/assets/images/bottomfloor_2.jpg")
+    preloadImg("/assets/images/bottomfloor_3.jpg")
 
-        var randomImage = Math.floor(Math.random() * 6) + 1;
-        var randomAngle = Math.floor(Math.random() * (41)) - 20;
+    $("#first_window").bind("mousemove",function(e){
+        var offset = $("#first_window").offset();
+        var clickX = e.clientX - offset.left;
+        var clickY = e.clientY - offset.top;
+        var width = this.clientWidth;
+        var height = this.clientHeight;
 
-        var powImage = $("<img>")
-            .attr("src", "/assets/images/pow_" + randomImage + ".png")
-            .attr("class", "pow-image")
-            .attr("width", 300)
-            .attr("height", 300)
-            .css("top", cursorY - 150)
-            .css("left", cursorX - 150)
-            .css("opacity", 1)
-            .css("transform", "rotate(" + randomAngle + "deg)")
+        if((clickX >= 0 && clickX <= this.clientWidth * 0.3)) {
+            $("#first_window").attr('src', "/assets/images/topwindow3.jpg");
+        } else if((this.clientWidth * 0.3 && clickX <= this.clientWidth * 0.66667)) {
+            $("#first_window").attr('src', "/assets/images/topwindow1.jpg");
+        } else if((this.clientWidth * 0.66667 && clickX <= this.clientWidth)) {
+            $("#first_window").attr('src', "/assets/images/topwindow2.jpg");
+        }
+    });
 
-        $("body").append(powImage);
+    $("#second_window").bind("mousemove",function(e){
+        var offset = $("#second_window").offset();
+        var clickX = e.clientX - offset.left;
+        var clickY = e.clientY - offset.top;
+        var width = this.clientWidth;
+        var height = this.clientHeight;
 
-        powImage.animate({
-            top: "-=100"
-        }, 200, function() {
-            powImage.animate({
-                opacity: "0"
-            }, 100, function() {
-                powImage.remove();
-            });
-        });
+        if((clickX >= 0 && clickX <= this.clientWidth * 0.3)) {
+            $("#second_window").attr('src', "/assets/images/midwindow_2.jpg");
+        } else if((this.clientWidth * 0.3 && clickX <= this.clientWidth * 0.66667)) {
+            $("#second_window").attr('src', "/assets/images/midwindow_1.jpg");
+        } else if((this.clientWidth * 0.66667 && clickX <= this.clientWidth)) {
+            $("#second_window").attr('src', "/assets/images/midwindow_3.jpg");
+        }
+    });
+
+    $("#third_window").bind("mousemove",function(e){
+        var offset = $("#third_window").offset();
+        var clickX = e.clientX - offset.left;
+        var clickY = e.clientY - offset.top;
+        var width = this.clientWidth;
+        var height = this.clientHeight;
+
+        if((clickX >= 0 && clickX <= this.clientWidth * 0.3)) {
+            $("#third_window").attr('src', "/assets/images/topwindow3.jpg");
+        } else if((this.clientWidth * 0.3 && clickX <= this.clientWidth * 0.66667)) {
+            $("#third_window").attr('src', "/assets/images/topwindow1.jpg");
+        } else if((this.clientWidth * 0.66667 && clickX <= this.clientWidth)) {
+            $("#third_window").attr('src', "/assets/images/topwindow2.jpg");
+        }
+    });
 
 
+    $("#door").bind("mousemove",function(e){
+        var offset = $("#door").offset();
+        var clickX = e.clientX - offset.left;
+        var clickY = e.clientY - offset.top;
+        var width = this.clientWidth;
+        var height = this.clientHeight;
+
+        if((clickX >= 0 && clickX <= this.clientWidth * 0.3)) {
+            $("#door").attr('src', "/assets/images/bottomfloor_3.jpg");
+        } else if((this.clientWidth * 0.3 && clickX <= this.clientWidth * 0.66667)) {
+            $("#door").attr('src', "/assets/images/bottomfloor_2.jpg");
+        } else if((this.clientWidth * 0.66667 && clickX <= this.clientWidth)) {
+            $("#door").attr('src', "/assets/images/bottomfloor_1.jpg");
+        }
     });
 
 }).call()
+
+
+// when you click a link, page scrolls smoothly to the correct section on the page;
+// stolen shamelessly from https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
+var smoothScroll = $(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+smoothScroll()();

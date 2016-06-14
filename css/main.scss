@@ -5,39 +5,33 @@
 
 
 @font-face {
-    font-family: 'Avengeance';
-    src: url('/assets/fonts/avengeance_heroic_avenger-webfont.eot');
-    src: url('/assets/fonts/avengeance_heroic_avenger-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/avengeance_heroic_avenger-webfont.woff2') format('woff2'),
-         url('/assets/fonts/avengeance_heroic_avenger-webfont.woff') format('woff'),
-         url('/assets/fonts/avengeance_heroic_avenger-webfont.ttf') format('truetype'),
-         url('/assets/fonts/avengeance_heroic_avenger-webfont.svg#avengeance_heroic_avengerRg') format('svg');
+    font-family: 'Futura';
+
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Komika';
-    src: url('/assets/fonts/Komika_Hand-webfont.eot');
-    src: url('/assets/fonts/Komika_Hand-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/Komika_Hand-webfont.woff2') format('woff2'),
-         url('/assets/fonts/Komika_Hand-webfont.woff') format('woff'),
-         url('/assets/fonts/Komika_Hand-webfont.ttf') format('truetype'),
-         url('/assets/fonts/Komika_Hand-webfont.svg') format('svg');
+    font-family: 'Futura';
     font-weight: normal;
     font-style: normal;
 }
 
+.full_width {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
 body {
-    background-image: url("/assets/images/BarCampNola9.png");
+    background-image: url("/assets/images/brickwork1.jpg");
     background-size: tile;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: black;
- 
- 
+    color: #f9f9f9;
+    font-family: "Arial", sans-serif;
+    width: 100vw;
+    position: absolute;
+    line-height: 150%;
 }
 
 section, footer {
@@ -46,38 +40,35 @@ section, footer {
 }
 
 a, a:visited {
-    color: #f9f9f9;
+    color: #7cb2e0;
     text-decoration: none;
+
+}
+a:hover {
+color: gold;
+transition: color .5s;
 }
 
-h2, h3 {
-    font-family: Komika;
-    margin: 20px 0px;
+h1, h2, h3 {
+    line-height: initial;
+    font-family: Futura;
+    text-align: center;
+    width: 100%;
 }
 
-#lightning_canvas {
-  pointer-events: none;
-}
-
-.thor{
-  height: 300px;
-}
-
-.superhero-background {
-  width: 300px;
-  float: left;
-  background-size: 300px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 .clearfix {
   overflow: auto;
   zoom: 1;
 }
 
+h1 {
+  font-size: 2em;
+}
+
 h2 {
-    font-size: 1.8em;
+    font-size: 4em;
+    padding-bottom: 30px;
 }
 
 h3 {
@@ -86,6 +77,9 @@ h3 {
 
 p {
     margin: 20px 0px;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    line-height: 1.7em;
 }
 
 section {
@@ -103,5 +97,6 @@ section {
         "about",
         "schedule",
         "location",
-        "sponsors"
+        "sponsors",
+        "string"
 ;

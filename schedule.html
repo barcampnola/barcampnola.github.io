@@ -1,0 +1,34 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id="full-schedule-page">
+    </br>
+    <h2> Day 1 Schedule: Coming Soon </h2>
+    <div class="actions">
+      <a class="to-home" href="/">Home</a>
+    </div>
+    <div class="full-schedule">
+      {% assign rooms = site.data.schedule %}
+      <ul class="headings">
+          <li></li>
+          {% for room in rooms %}
+            <li>{{ room.name }}</li>
+          {% endfor %}
+      </ul>
+      {% assign timeslots = "11:00 12:00 1:00 2:00 3:00 4:00" | split: " " %}
+      {% for time in timeslots %}
+        <ul class="slots">
+          <li class="time">{{ time }}</li>
+          {% for room in rooms %}
+            <li></li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </div>
+  </body>
+</html>

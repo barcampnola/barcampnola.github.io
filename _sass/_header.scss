@@ -1,47 +1,58 @@
+
+
 #header {
+    background-image: url("/assets/images/brickwork1.jpg");
     position: fixed;
-    height: 90px;
-    background-color: #111;
+    height: 70px;
     margin: 0px;
     width: 100vw;
     box-shadow: 0px 10px 10px black;
     z-index: 999;
 
-    .logo-small, nav {
-        display: inline-block;
-        vertical-align: middle;
-    }
 
     .logo-small {
         width: 200px;
-        margin: 5px 15px;
+        max-height: 80px;
+        margin-left: 2rem;
+
+
     }
-
+    .logo-small-text {
+      display: none;
+    }
     nav {
-        font-family: Avengeance;
+        font-family: Futura;
         font-size: 2em;
-        margin-left: 30px;
+        display: flex;
+        width: 80%;
 
+        .nav-menu {
+          margin: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+        }
+        .nav-item {
+          margin: 0 2% 0 3%;
+        }
         a {
-            display: inline-block;
-            margin: 0px 10px;
             transition: color .5s;
-
             &:hover {
-                color: #F55;
+                color: #7cb2e0;
                 transition: color .5s;
             }
         }
 
         a.register {
+            margin: 0 2%;
             position: absolute;
-            top: 18%;
-            right: 25px;
-            color: red;
+            top: 10%;
+            right: 1%;
+            color: #7cb2e0;
             font-size: 1.3em;
             border: 2px solid white;
             border-radius: 5px;
-            padding: 15px 15px 5px 10px;
+            padding: 1rem;
             transition: color .5s;
 
             &:hover {
@@ -51,9 +62,167 @@
     }
 }
 
+
 .pow-image {
     position: absolute;
     width: 300px;
     height: 300px;
     z-index: 99999999;
+}
+@media (max-width: 1080px) {
+
+  #header {
+      background-image: url("/assets/images/brickwork1.jpg");
+      position: fixed;
+      height: initial;
+      border-bottom: .2em solid #7cb2e0;
+
+      // margin: 0px;
+      // width: 100vw;
+      // box-shadow: 0px 10px 10px black;
+      // z-index: 999;
+
+      .logo-small {
+          display: none;
+      }
+      .logo-small-text {
+        margin: 0 2%;
+        display: flex;
+        color: #7cb2e0;
+        border: 1px solid #7cb2e0;
+        border-radius: 5px;
+        padding: 0.5rem;
+      }
+
+
+
+      nav {
+          // display: flex;
+          // font-family: Futura;
+          width: auto;
+          align-items:baseline;
+          justify-content: center;
+
+          .nav-menu {
+            padding: 1% 0;
+            display: flex;
+            justify-content: center;
+            flex-grow: 1;
+            font-size: 2rem;
+            margin: auto;
+            width: 100vw;
+            align-items: center;
+
+          }
+          .nav-item {
+
+              margin: 0;
+
+          }
+          a {
+              padding: 1%;
+              margin-left: 1%;
+              transition: color .5s;
+
+              &:hover {
+                  color: #F55;
+                  transition: color .5s;
+              }
+          }
+
+          a.register {
+              // margin: 0 2%;
+              position: relative;
+              color: red;
+              border: 1px solid white;
+              // border-radius: 5px;
+              padding: 0.5rem;
+              // transition: color .5s;
+              font-size: 1em;
+              &:hover {
+                  // color: gold;
+              }
+          }
+      }
+  }
+
+}
+
+@media (max-width: 800px) {
+ #header {
+      // background-image: url("/assets/images/brickwork1.jpg");
+      // position: fixed;
+      // height: initial;
+      // border-bottom: .2em solid #7cb2e0;
+      //
+      // margin: 0px;
+      // width: 100vw;
+      // box-shadow: 0px 10px 10px black;
+      // z-index: 999;
+
+      .logo-small {
+          // display: none;
+
+      }
+      .logo-small-text {
+        // display: flex;
+        // color: #7cb2e0;
+        // border: 1px solid #7cb2e0;
+        // border-radius: 10px;
+        // padding: 0.5rem;
+        justify-content: flex-start;
+      }
+
+
+
+      nav {
+          // display: flex;
+          // font-family: Futura;
+          // width: auto;
+          // align-items:baseline;
+          // justify-content: center;
+
+          .nav-menu {
+
+            // display: flex;
+            // justify-content: center;
+            // flex-grow: 1;
+            // font-size: 2rem;
+            // margin: auto;
+            // width: 100vw;
+            // align-items: center;
+
+            .nav-item {
+              display: none;
+            }
+          }
+
+          a {
+              // padding: 1%;
+              // margin-left: 1%;
+              // transition: color .5s;
+
+              &:hover {
+                  // color: #F55;
+                  // transition: color .5s;
+              }
+          }
+
+          a.register {
+              text-decoration: underline;
+              // margin: 0 2%;
+              // position: relative;
+              // color: red;
+              // border: 1px solid white;
+              // border-radius: 5px;
+              // padding: 0.5rem;
+              // transition: color .5s;
+              // font-size: 1em;
+              &:hover {
+                  // color: gold;
+              }
+          }
+      }
+  }
+
 }
