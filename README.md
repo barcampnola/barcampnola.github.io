@@ -1,4 +1,4 @@
-BarCampNola 8 Website Repo
+BarCampNola 9 Website Repo
 
 Tech Stack:
 
@@ -24,11 +24,11 @@ Welcome, team!
 
 People
 
-Steve Price - Website Lead
-    GH: @themooserooster
-    Twitter: @themooserooster
-    Email: steveprice@mooserooster.com
+Jacqui Nelson - Website Lead
+    GH: @spaceotterinspace
+    Twitter: @spaceotterin
+    Email: jacqnelson@gmail.com
     
-John Clark - Graphic Design Lead
+Hannah Rhodes - Graphic Design Lead
 
-Joe Ellis - BarCampNola GitHub Organization Admin
+Jacqui Nelson - BarCampNola GitHub Organization Admin

@@ -1,38 +1,179 @@
 - name: Old Fashioned Room
   slots:
-    - name: A great talk by a killer tomato
-      author: A Killer Tomato
-      starts: "9:30"
-    - name: A bad talk by a ruined eggplant
-      author: A ruined eggplant
-      starts: "10:00"
+    - name: ?????
+      author: you
+      starts: "11:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "12:00"
+      double: true
+    - name: Lunch
+      author: our sponsors
+      starts: "1:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "3:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "4:00"
       double: true
 
 - name: Sazerac Room
   slots:
-    - name: A wild talk by an yuletide yucca
-      author: A yuletide yucca
-      starts: "10:00"
-      double: true
-    - name: A mixed message from D.A.R.E
-      author: A weird cartoon dog
+    - name: ?????
+      author: you
+      starts: "11:00"
+    - name: ?????
+      author: you
       starts: "11:30"
+      double: true
+    - name: ?????
+      author: you
+      starts: "12:30"
+    - name: Lunch
+      author: our sponsors
+      starts: "1:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "3:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "4:00"
+      double: true
 
-- name: Rexatron Room
+- name: Vieux Carre Room
   slots:
-    - name: The Buddhist's guide to outsourcing
-      author: M Night Shamylana
-      starts: "10:00"
-      double: true
-    - name: Which cereal wore it best?
-      author: Jackie-O
+    - name: ?????
+      author: you
+      starts: "11:00"
+    - name: ?????
+      author: you
       starts: "11:30"
-      
-- name: Cuba Libre Room
+      double: true
+    - name: Lunch
+      author: our sponsors
+      starts: "1:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "3:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "4:00"
+      double: true
+
+- name: Negroni Room
   slots:
-  
-- name: Manhattan Room
+    - name: ?????
+      author: you
+      starts: "11:00"
+    - name: ?????
+      author: you
+      starts: "11:30"
+      double: true
+    - name: Lunch
+      author: our sponsors
+      starts: "1:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "3:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "4:00"
+      double: true
+
+- name: The Straight Up Room
   slots:
-  
-- name: Curated Spirits Room
+    - name: ?????
+      author: you
+      starts: "11:00"
+    - name: ?????
+      author: you
+      starts: "11:30"
+      double: true
+    - name: ?????
+      author: you
+      starts: "12:30"
+    - name: Lunch
+      author: our sponsors
+      starts: "1:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+    - name: ?????
+      author: you
+      starts: "2:30"
+    - name: ?????
+      author: you
+      starts: "3:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "4:00"
+      double: true
+
+- name: The Last Word Room
   slots:
+    - name: ?????
+      author: you
+      starts: "11:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "12:00"
+      double: true
+    - name: Lunch
+      author: our sponsors
+      starts: "1:00"
+      double: true
+    - name: ?????
+      author: you
+      starts: "2:00"
+    - name: ?????
+      author: you
+      starts: "2:30"
+      double: true
+    - name: ?????
+      author: you
+      starts: "3:30"
+    - name: ?????
+      author: you
+      starts: "4:00"
+      double: true

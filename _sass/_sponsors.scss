@@ -44,14 +44,14 @@
             -moz-flex-wrap: wrap;
             flex-wrap: wrap;
             max-width: 800px;
-            justify-content: -webkit-flex-start;
-            justify-content: -moz-flex-start;
-            justify-content: flex-start;
+            justify-content: -webkit-center;
+            justify-content: -moz-center;
+            justify-content: center;
             align-items: -webkit-flex-start;
             align-items: -moz-flex-start;
             align-items: flex-start;
             background: rgba(255, 255, 255, 1);
-
+            border: 10px solid #7cb2e0;
             .sponsor-icon {
                 width: 100px;
                 height: 100px;
