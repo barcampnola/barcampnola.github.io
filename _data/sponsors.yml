@@ -34,11 +34,11 @@
   description: Surge's mission is to provide high-end software development & consulting services to their clients that are unmatched in the industry.
   website: http://www.surgeforward.com/
 
-# - name: FlatStack
-#   smallLogoPath: /assets/sponsors/flat-stack.png
-#   largeLogoPath: /assets/sponsors/big/flat-stack.png
-#   description: FlatStack is a global software development company with offices in New Orleans, Louisiana and Kazan, Russia
-#   website: http://www.flatstack.com/
+- name: FlatStack
+  smallLogoPath: /assets/sponsors/flat-stack.png
+  largeLogoPath: /assets/sponsors/big/flat-stack.png
+  description: FlatStack is a global software development company with offices in New Orleans, Louisiana and Kazan, Russia
+  website: http://www.flatstack.com/
 
 - name: Hop & Jaunt
   smallLogoPath: /assets/sponsors/hop_and_jaunt.png
