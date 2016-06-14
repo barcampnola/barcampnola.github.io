@@ -1,4 +1,5 @@
 (function() {
+
     //generate random number between min and max
     var rand = function(min, max) {
         return Math.floor(Math.random() * (max - min)) + min;
@@ -118,3 +119,23 @@
     });
 
 }).call()
+
+
+// when you click a link, page scrolls smoothly to the correct section on the page;
+// stolen shamelessly from https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
+var smoothScroll = $(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+smoothScroll()();
