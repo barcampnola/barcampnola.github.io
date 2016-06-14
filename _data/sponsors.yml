@@ -58,11 +58,11 @@
   description:
   website: https://luc.id/
   
-# - name: Susco Solutions
-#   smallLogoPath: /assets/sponsors/susco.png
-#   largeLogoPath: /assets/sponsors/big/susco.png
-#   description: Software Solutions for Business Process Improvement
-#   website: http://www.suscosolutions.com/
+- name: Susco Solutions
+  smallLogoPath: /assets/sponsors/susco.png
+  largeLogoPath: /assets/sponsors/big/susco.png
+  description: Software Solutions for Business Process Improvement
+  website: http://www.suscosolutions.com/
 
 # - name: LispCast
 #   smallLogoPath: /assets/sponsors/big/LispCast-Logo.png
