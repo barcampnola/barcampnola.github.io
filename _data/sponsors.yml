@@ -76,11 +76,11 @@
 #   description: Amazing Apps
 #   website: http://www.iconoclastlabs.com/
 
-# - name: LOOKFAR
-#   smallLogoPath: /assets/sponsors/big/lookfarlogo.png
-#   largeLogoPath: /assets/sponsors/big/lookfarlogo.png
-#   description: An idea acceleration company
-#   website: http://lookfar.com/
+- name: LOOKFAR
+  smallLogoPath: /assets/sponsors/big/lookfarlogo.png
+  largeLogoPath: /assets/sponsors/big/lookfarlogo.png
+  description: An idea acceleration company
+  website: http://lookfar.com/
 
 - name: GNO, Inc
   smallLogoPath: /assets/sponsors/gno.jpg
@@ -124,11 +124,11 @@
   description:
   website: http://www.kickboardforteachers.com/
 
-# - name: Continga Soft
-#   smallLogoPath: /assets/sponsors/contingasoft.png
-#   largeLogoPath: /assets/sponsors/contingasoft.png
-#   description:
-#   website: http://www.cotingasoft.com/
+- name: Continga Soft
+  smallLogoPath: /assets/sponsors/contingasoft.png
+  largeLogoPath: /assets/sponsors/contingasoft.png
+  description:
+  website: http://www.cotingasoft.com/
 
 # - name: iSeatz
 #   smallLogoPath: /assets/sponsors/iseatz.png
