@@ -6,23 +6,29 @@ layout: null
 
   {% include head.html %}
 
-  <body>
-    <h1> Day 1 schedule </h2>
-    <div class="slot_grid">
-      {% assign timeslots = "9:30 10:00 10:30 11:00 11:30 12:00 12:30 1:00 1:30 2:00 2:30 3:00 4:30 4:00 4:30 5:00" | split: " " %}
+  <body id="full-schedule-page">
+    <h1> Day 1 schedule </h1>
+    <div class="actions">
+      <a class="to-home" href="/">Home</a>
+      <a class="to-home" href="/">Home</a>
+    </div>
+    <aside>Coming Soon</aside>
+    <div class="full-schedule">
       {% assign rooms = site.data.schedule %}
-      <div class=slot_column_title></div>
-      {% for room in rooms %}
-        <div class=slot_column_title>
-          {{ room.name }}
-          {% for talk in room.slots %}
-            <div class="slot {{ talk.starts | replace: ":", "_" | prepend: "s" }} {% if talk.double %}double{% endif %}">{{ talk.name }} by {{ talk.author}}</div>
+      <ul class="headings">
+          <li></li>
+          {% for room in rooms %}
+            <li>{{ room.name }}</li>
           {% endfor %}
-          </div>
-      {% endfor %}
-      <div class=clearfix></div>
+      </ul>
+      {% assign timeslots = "11:00 12:00 1:00 2:00 3:00 4:00" | split: " " %}
       {% for time in timeslots %}
-        <div class=slot_row_title>{{ time }}</div>
+        <ul class="slots">
+          <li class="time">{{ time }}</li>
+          {% for room in rooms %}
+            <li></li>
+          {% endfor %}
+        </ul>
       {% endfor %}
     </div>
   </body>

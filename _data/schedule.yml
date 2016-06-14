@@ -27,3 +27,12 @@
     - name: Which cereal wore it best?
       author: Jackie-O
       starts: "11:30"
+      
+- name: Cuba Libre Room
+  slots:
+  
+- name: Manhattan Room
+  slots:
+  
+- name: Curated Spirits Room
+  slots:
