@@ -166,8 +166,8 @@
   description:
   website: http://hannah-rhodes.com/
 
-# - name: Juggle
-#   smallLogoPath: assets/sponsors/juggle_logo.png
-#   largeLogoPath: assets/sponsors/juggle_logo.png
-#   description:
-#   website: http://juggle.guru/
+- name: Juggle
+  smallLogoPath: assets/sponsors/juggle_logo.png
+  largeLogoPath: assets/sponsors/juggle_logo.png
+  description:
+  website: http://juggle.guru/
