@@ -133,15 +133,11 @@
           a.register {
               // margin: 0 2%;
               position: relative;
-              color: red;
               border: 1px solid white;
               // border-radius: 5px;
               padding: 0.5rem;
               // transition: color .5s;
               font-size: 1em;
-              &:hover {
-                  // color: gold;
-              }
           }
       }
   }
