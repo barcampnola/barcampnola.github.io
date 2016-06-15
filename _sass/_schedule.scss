@@ -79,7 +79,7 @@
   .slot.double {
     border-bottom: none;
   }
-  
+
   .slot_row {
     display: flex;
   }
@@ -94,7 +94,7 @@ div.time {
   border-collapse: collapse;
   margin: 1em auto;
   color: #EBEBC4;
-    
+
   .slots li:not(.time) {
       background: url('/assets/images/question.png');
       min-width: 10em;
@@ -149,13 +149,13 @@ div.time {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    
+
     a {
       padding: .6rem;
       border: 2px solid #EBEBC4;
       display: inline-block;
       border-radius: 10px;
-    } 
+    }
   }
 }
 
