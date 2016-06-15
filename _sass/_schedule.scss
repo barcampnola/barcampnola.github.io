@@ -158,3 +158,9 @@ div.time {
     } 
   }
 }
+
+@media (max-width: 800px) {
+  ul.day-schedule {
+    padding-left: 15px;
+  }
+}
