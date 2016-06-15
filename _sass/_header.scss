@@ -77,6 +77,7 @@
       height: initial;
       border-bottom: .2em solid #7cb2e0;
 
+
       // margin: 0px;
       // width: 100vw;
       // box-shadow: 0px 10px 10px black;
@@ -92,6 +93,7 @@
         border: 1px solid #7cb2e0;
         border-radius: 5px;
         padding: 0.5rem;
+        line-height: 2.5rem;
       }
 
 
@@ -100,7 +102,6 @@
           // display: flex;
           // font-family: Futura;
           width: auto;
-          align-items:baseline;
           justify-content: center;
 
           .nav-menu {
@@ -135,9 +136,8 @@
               position: relative;
               border: 1px solid white;
               // border-radius: 5px;
-              padding: 0.5rem;
+                padding: 1rem;
               // transition: color .5s;
-              font-size: 1em;
           }
       }
   }
