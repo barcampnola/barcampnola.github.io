@@ -1,5 +1,5 @@
 #schedule {
-  padding-top: 100px;
+  padding: 100px 0;
 
   .general-schedule {
     display: flex;
@@ -14,19 +14,22 @@
 
   .entry {
     font-size: 1.25em;
+    line-height: 1.25em;
   }
 
   .day-one, .day-two {
-      margin: 20px;
-      min-width: 390px;
+      flex-grow: 1;
+      margin: 0 3%;
       max-width: 500px;
       display: flex;
       flex-direction: column;
       justify-content: center;
 
       h4 {
-        margin: 1em;
-        font-size: 1.75em;
+        text-align: center;
+        margin: 0.5rem 0;
+        font-size: 2rem;
+        line-height: 2rem;
         font-family: Futura;
       }
   }
