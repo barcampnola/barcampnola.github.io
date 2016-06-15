@@ -123,7 +123,7 @@
 
 // when you click a link, page scrolls smoothly to the correct section on the page;
 // stolen shamelessly from https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
-var smoothScroll = $(function() {
+$(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -137,5 +137,3 @@ var smoothScroll = $(function() {
     }
   });
 });
-
-smoothScroll()();
