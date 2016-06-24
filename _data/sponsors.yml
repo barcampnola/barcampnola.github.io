@@ -171,3 +171,9 @@
   largeLogoPath: assets/sponsors/juggle_logo.png
   description:
   website: http://juggle.guru/
+
+- name: Sandstone Oil & Gas
+  smallLogoPath: assets/sponsors/Sandstone_oil_and_gas.png
+  largeLogoPath: assets/sponsors/Sandstone_oil_and_gas.png
+  description:
+  website: https://SandstoneOilAndGas.com
