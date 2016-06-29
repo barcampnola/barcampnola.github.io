@@ -100,11 +100,11 @@
 #   description:
 #   website: https://github.com/
 
-# - name: LaunchPad
-#   smallLogoPath: /assets/sponsors/big/launchpad.png
-#   largeLogoPath: /assets/sponsors/big/launchpad.png
-#   description:
-#   website: http://www.lp.co/
+- name: LaunchPad
+  smallLogoPath: /assets/sponsors/big/launchpad.png
+  largeLogoPath: /assets/sponsors/big/launchpad.png
+  description:
+  website: http://www.lp.co/
 
 - name: TurboSquid
   smallLogoPath: /assets/sponsors/big/Squid-Logo.jpg
@@ -142,11 +142,11 @@
 #   description:
 #   website: http://revelry.co/
 
-# - name: Scandy
-#   smallLogoPath: /assets/sponsors/scandy.jpg
-#   largeLogoPath: /assets/sponsors/scandy.jpg
-#   description:
-#   website: https://scandy.co/welcome
+- name: Scandy
+  smallLogoPath: /assets/sponsors/scandy.jpg
+  largeLogoPath: /assets/sponsors/scandy.jpg
+  description:
+  website: https://scandy.co/welcome
 
 # - name: Entrescan
 #   smallLogoPath: /assets/sponsors/entrescan.png
