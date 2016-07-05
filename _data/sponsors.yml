@@ -179,19 +179,7 @@
   website: https://SandstoneOilAndGas.com
 
 - name: Recurly
-  smallLogoPath: assets/sponsors/
-
-- name: Sandstone Oil & Gas
-  smallLogoPath: assets/sponsors/Sandstone_oil_and_gas.png
-  largeLogoPath: assets/sponsors/Sandstone_oil_and_gas.png
-  description:
-  website: .png
-  largeLogoPath: assets/sponsors/
-
-- name: Recurly
   smallLogoPath: assets/sponsors/Recurly_Logo_Standard.jpg
   largeLogoPath: assets/sponsors/Recurly_Logo_Standard.jpg
-  description:
-  website:
   description:
   website: https://recurly.com
