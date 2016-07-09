@@ -1,8 +1,8 @@
 - name: Tulane School of Engineering
-  smallLogoPath: /assets/sponsors/tulane.png
-  largeLogoPath: /assets/sponsors/big/tulane.png
+  smallLogoPath: /assets/sponsors/ScienceEngineering.jpg
+  largeLogoPath: /assets/sponsors/ScienceEngineering.jpg
   description: Tulane University is one of the nation's most prestigious educational and research institutions. Founded in 1834 in New Orleans, Tulane offers degrees in architecture, business, law, liberal arts, medicine, public health and tropical medicine, the sciences and engineering, and social work.
-  website: http://tulane.edu/
+  website: http://www2.tulane.edu/sse/
 
 # - name: Apptitude
 #   smallLogoPath: /assets/sponsors/apptitude.png
