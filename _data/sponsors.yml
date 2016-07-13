@@ -112,11 +112,11 @@
   description:
   website: http://www.turbosquid.com/
 
-# - name: DDD
-#   smallLogoPath: /assets/sponsors/big/DDD.jpg
-#   largeLogoPath: /assets/sponsors/big/DDD.jpg
-#   description:
-#   website: http://downtownnola.com/
+- name: DDD
+  smallLogoPath: /assets/sponsors/big/DDD.jpg
+  largeLogoPath: /assets/sponsors/big/DDD.jpg
+  description:
+  website: http://downtownnola.com/
 
 - name: Kickboard
   smallLogoPath: /assets/sponsors/kickboard_logo_web_small.png
