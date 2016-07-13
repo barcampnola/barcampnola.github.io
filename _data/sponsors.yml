@@ -183,3 +183,9 @@
   largeLogoPath: assets/sponsors/Recurly_Logo_Standard.jpg
   description:
   website: https://recurly.com
+
+- name: Ruby on Sails
+  smallLogoPath: assets/sponsors/rubyonsalesgrey.jpeg
+  largeLogoPath: assets/sponsors/rubyonsalesgrey.jpeg
+  description:
+  website: http://rubyonsails.info
