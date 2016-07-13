@@ -1,179 +1,208 @@
 - name: Old Fashioned Room
   slots:
-    - name: ?????
-      author: you
+    - name: How Functional Programming Can Benefit Your Business
+      author: by Eric Normand
       starts: "11:00"
       double: true
-    - name: ?????
-      author: you
+    - name: How To Build A Time Machine aka Saving Your Digital Memories
+      author: by Christopher Boudy
       starts: "12:00"
       double: true
     - name: Lunch
-      author: our sponsors
+      author: by our sponsors
       starts: "1:00"
       double: true
-    - name: ?????
-      author: you
+    - name: How to Use A Hi-Tech Japanese Toilet
+      author: by Romy Elis
       starts: "2:00"
-      double: true
-    - name: ?????
-      author: you
+    - name: Mass Customization - Throw sh#t and see what Sticks. 
+      author: by Dominic Giunta
+      starts: "2:30"
+    - name: O\(n) Ways to Make a Lightswitch
+      author: by Hunter Hutchinson
       starts: "3:00"
       double: true
-    - name: ?????
-      author: you
+    - name: WIT Panel
+      author: by Wendy Dolan
       starts: "4:00"
       double: true
 
 - name: Sazerac Room
   slots:
     - name: ?????
-      author: you
+      author: by you
       starts: "11:00"
     - name: ?????
-      author: you
+      author: by you
       starts: "11:30"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "12:30"
     - name: Lunch
-      author: our sponsors
+      author: by our sponsors
       starts: "1:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "2:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "2:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "3:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "4:00"
       double: true
 
 - name: Vieux Carre Room
   slots:
     - name: ?????
-      author: you
+      author: by you
       starts: "11:00"
     - name: ?????
-      author: you
+      author: by you
       starts: "11:30"
       double: true
     - name: Lunch
-      author: our sponsors
+      author: by our sponsors
       starts: "1:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "2:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "2:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "3:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "4:00"
       double: true
 
 - name: Negroni Room
   slots:
     - name: ?????
-      author: you
+      author: by you
       starts: "11:00"
     - name: ?????
-      author: you
+      author: by you
       starts: "11:30"
       double: true
     - name: Lunch
-      author: our sponsors
+      author: by our sponsors
       starts: "1:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "2:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "2:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "3:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "4:00"
       double: true
 
 - name: The Straight Up Room
   slots:
     - name: ?????
-      author: you
+      author: by you
       starts: "11:00"
     - name: ?????
-      author: you
+      author: by you
       starts: "11:30"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "12:30"
     - name: Lunch
-      author: our sponsors
+      author: by our sponsors
       starts: "1:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "2:00"
     - name: ?????
-      author: you
+      author: by you
       starts: "2:30"
     - name: ?????
-      author: you
+      author: by you
       starts: "3:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "4:00"
       double: true
 
 - name: The Last Word Room
   slots:
     - name: ?????
-      author: you
+      author: by you
       starts: "11:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "12:00"
       double: true
     - name: Lunch
-      author: our sponsors
+      author: by our sponsors
       starts: "1:00"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "2:00"
     - name: ?????
-      author: you
+      author: by you
       starts: "2:30"
       double: true
     - name: ?????
-      author: you
+      author: by you
       starts: "3:30"
     - name: ?????
-      author: you
+      author: by you
+      starts: "4:00"
+      double: true
+
+- name: The Romulan Ale Room
+  slots:
+    - name: Empty
+      author: 
+      starts: "11:00"
+      double: true
+    - name: Empty
+      author: 
+      starts: "12:00"
+      double: true
+    - name: Lunch
+      author: by our sponsors
+      starts: "1:00"
+      double: true
+    - name: Arduino Workshop
+      author: by Idiya
+      starts: "2:00"
+      double: true
+    - name: Arduino Workshop
+      author: by Idiya
+      starts: "3:00"
+      double: true
+    - name: Arduino Workshop
+      author: by Idiya
       starts: "4:00"
       double: true

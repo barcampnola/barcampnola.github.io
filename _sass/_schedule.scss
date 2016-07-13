@@ -46,8 +46,8 @@
 }
 
 .slot_grid {
-  $row_height: 50px;
-  $column_width: 200px;
+  $row_height: 100px;
+  $column_width: 275px;
   width: $column_width * 5;
 
   .slot_column_title {
@@ -62,12 +62,18 @@
     border-bottom: thin solid white;
   }
   .slot_column_title:first-child {
-    width: 60px;
+    width: 200px;
   }
   .slot_row_title {
     display: block;
     height: $row_height;
-    width: 60px;
+    width: 200px;
+    border-bottom: 2px solid #EBEBC4;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: thin solid white;
+    border-right: thin solid white;
+    border-bottom: thin solid white;
   }
 
   .slot {
