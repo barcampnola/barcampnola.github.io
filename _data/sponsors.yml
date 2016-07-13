@@ -189,3 +189,9 @@
   largeLogoPath: assets/sponsors/rubyonsalesgrey.jpeg
   description:
   website: http://rubyonsails.info
+
+- name: Idiya
+  smallLogoPath: assets/sponsors/idiya.png
+  largeLogoPath: assets/sponsors/idiya.png
+  description:
+  website: http://myidiya.com/
