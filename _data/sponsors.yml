@@ -195,3 +195,9 @@
   largeLogoPath: assets/sponsors/idiya.png
   description:
   website: http://myidiya.com/
+
+- name: Toastmasters
+  smallLogoPath: assets/sponsors/toastmasters.jpeg
+  largeLogoPath: assets/sponsors/toastmasters.jpeg
+  description:
+  website: http://notoast234.toastmastersclubs.org/
