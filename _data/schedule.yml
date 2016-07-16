@@ -32,24 +32,23 @@
     - name: ?????
       author: by you
       starts: "11:00"
-    - name: ?????
-      author: by you
-      starts: "11:30"
       double: true
-    - name: ?????
-      author: by you
+    - name: Cooking with the Greek Hw to Make Baklava
+      author: by Sia
+      starts: "12:00"
+    - name: The Science (Benefits of Habit Formation)
+      author: by Chris Szeto
       starts: "12:30"
     - name: Lunch
       author: by our sponsors
       starts: "1:00"
       double: true
+    - name: The Golden Circle Simon Sinck
+      author: by Bernard Fralias
+      starts: "2:00"
     - name: ?????
       author: by you
-      starts: "2:00"
-      double: true
-    - name: ?????
-      author: by you
-      starts: "2:00"
+      starts: "2:30"
       double: true
     - name: ?????
       author: by you
@@ -62,23 +61,20 @@
 
 - name: Vieux Carre Room
   slots:
-    - name: ?????
-      author: by you
+    - name: Get the Message Not the Malward
+      author: by Jack Reiner
       starts: "11:00"
-    - name: ?????
-      author: by you
-      starts: "11:30"
+      double: true
+    - name: Stronger Than Fear Open Sourcing Mental Illness
+      author: by Leigh Turland
+      starts: "12:00"
       double: true
     - name: Lunch
       author: by our sponsors
       starts: "1:00"
       double: true
-    - name: ?????
-      author: by you
-      starts: "2:00"
-      double: true
-    - name: ?????
-      author: by you
+    - name: 3D Printing for Medicine & Surgery
+      author: by Vlad Zuzukin M.D.
       starts: "2:00"
       double: true
     - name: ?????
@@ -92,12 +88,15 @@
 
 - name: Negroni Room
   slots:
-    - name: ?????
-      author: by you
+    - name: What is the Future of the Technology Industry
+      author: by Alba Huddleson
       starts: "11:00"
     - name: ?????
       author: by you
       starts: "11:30"
+    - name: What Makes a Great Developer
+      author: by Matthew Turland
+      starts: "12:00"
       double: true
     - name: Lunch
       author: by our sponsors
@@ -106,15 +105,15 @@
     - name: ?????
       author: by you
       starts: "2:00"
-      double: true
-    - name: ?????
-      author: by you
-      starts: "2:00"
-      double: true
-    - name: ?????
-      author: by you
+    - name: Distributed Systems in Elixer
+      author:
+      starts: "2:30"
+    - name: Quick Intro To Quantum Computation Nuts and Bolts
+      author: by Henry Fitzhugh
       starts: "3:00"
-      double: true
+      name: ?
+      author: ?
+      starts: "3:30"
     - name: ?????
       author: by you
       starts: "4:00"
@@ -122,15 +121,17 @@
 
 - name: The Straight Up Room
   slots:
-    - name: ?????
-      author: by you
+    - name: Never Lose at Monopoly Again
+      author: by Flynn
       starts: "11:00"
-    - name: ?????
-      author: by you
+    - name: How to get on the Road to Financial Wellness
+      author: by Jason Vitug
       starts: "11:30"
-      double: true
-    - name: ?????
-      author: by you
+    - name: Pure Css Tabs UI
+      author: by ?
+      starts: "12:00"
+    - name: Why HTML Forms Ain't So Bad
+      author: by ?
       starts: "12:30"
     - name: Lunch
       author: by our sponsors
@@ -142,7 +143,7 @@
     - name: ?????
       author: by you
       starts: "2:30"
-    - name: ?????
+    - name: Protech Your Assets! - A Legal Primer For Start Ups
       author: by you
       starts: "3:00"
       double: true
@@ -153,14 +154,15 @@
 
 - name: The Last Word Room
   slots:
-    - name: ?????
-      author: by you
+    - name: The Pitch: Multii-Trillion Dollar Cloud-Based Financial System
+      author: by Geoffry Gauchet
       starts: "11:00"
-      double: true
-    - name: ?????
-      author: by you
+    - name: Regulating the Sharing Economy
+      author: by ?
+      starts: "11:30"
+    - name: NOPD Oversight And Accountability
+      author: by ?
       starts: "12:00"
-      double: true
     - name: Lunch
       author: by our sponsors
       starts: "1:00"
@@ -168,13 +170,13 @@
     - name: ?????
       author: by you
       starts: "2:00"
-    - name: ?????
-      author: by you
+    - name: Education v. Training - Student Success through the lens of Complexity Theory
+      author: by G. Blake Williams
       starts: "2:30"
+    - name: InfoSec - Integrity in Online Voting
+      author: by Sonny
+      starts: "3:00"
       double: true
-    - name: ?????
-      author: by you
-      starts: "3:30"
     - name: ?????
       author: by you
       starts: "4:00"
@@ -182,14 +184,18 @@
 
 - name: The Romulan Ale Room
   slots:
-    - name: Empty
+    - name: Why I hate Media Queries and Avoiding Them With React & Flux
       author: 
       starts: "11:00"
-      double: true
-    - name: Empty
+    - name: Parallelization for Dummies
+      author: 
+      starts: "11:30"
+    - name: Finding Data Publicly Avble
       author: 
       starts: "12:00"
-      double: true
+    - name: Jedi Mind Tricks and the Art of Conversation
+      author: 
+      starts: "12:30"
     - name: Lunch
       author: by our sponsors
       starts: "1:00"
