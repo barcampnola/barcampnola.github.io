@@ -1,4 +1,4 @@
-- name: Old Fashioned Room
+- name: Old Fashioned Room 104
   slots:
     - name: How Functional Programming Can Benefit Your Business
       author: by Eric Normand
@@ -27,7 +27,7 @@
       starts: "4:00"
       double: true
 
-- name: Sazerac Room
+- name: Sazerac Room 105
   slots:
     - name: Challenges w Nola tech startups
       author: by Sonny and Friends
@@ -60,7 +60,7 @@
       starts: "4:00"
       double: true
 
-- name: Vieux Carre Room
+- name: Vieux Carre Room 122
   slots:
     - name: Get the Message Not the Malward
       author: by Jack Reiner
@@ -87,7 +87,7 @@
       starts: "4:00"
       double: true
 
-- name: Negroni Room
+- name: Negroni Room 239
   slots:
     - name: What is the Future of the Technology Industry
       author: by Alba Huddleson
@@ -120,7 +120,7 @@
       starts: "4:00"
       double: true
 
-- name: The Straight Up Room
+- name: The Straight Up Room 240
   slots:
     - name: Never Lose at Monopoly Again
       author: by Flynn
@@ -153,7 +153,7 @@
       starts: "4:00"
       double: true
 
-- name: The Last Word Room
+- name: The Last Word Room 242
   slots:
     - name: The Pitch Multii Tril Dollar Cloud-Based Financial System
       author: by Geoffry Gauchet
@@ -186,7 +186,7 @@
       starts: "4:00"
       double: true
 
-- name: The Romulan Ale Room
+- name: The Romulan Ale Room 243
   slots:
     - name: Why I hate Media Queries and Avoiding Them With React & Flux
       author: 
