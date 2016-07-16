@@ -116,9 +116,7 @@
     - name: Disaster Prep for Real Lazy Peeps
       author: Heather G.
       starts: "3:30"
-    - name: How to Repurpose Conference T-Shirts
-      author:
-      starts: "4:00"
+
 
 - name: The Straight Up Room 240
   slots:
@@ -177,12 +175,14 @@
     - name: Education v. Training Student Success through the lens of...
       author: G. Blake Williams
       starts: "2:30"
+    - name: How to Do a Tarot Card Reading
+      author: by Anne
+      starts: "3:00"
+    - name: How to Repurpose Conference T-Shirts
+      author: by Alexa
+      starts: "3:30"
     - name: InfoSec Integrity in Online Voting
       author: by Sonny
-      starts: "3:00"
-      double: true
-    - name: ?????
-      author: by you
       starts: "4:00"
       double: true
 
