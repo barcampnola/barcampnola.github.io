@@ -104,8 +104,8 @@
       author: by our sponsors
       starts: "1:00"
       double: true
-    - name: ?????
-      author: by you
+    - name: Crush it with DevTools
+      author: by Seth
       starts: "2:00"
     - name: Distributed Systems in Elixer
       author:
