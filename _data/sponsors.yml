@@ -130,11 +130,11 @@
   description:
   website: http://www.cotingasoft.com/
 
-# - name: iSeatz
-#   smallLogoPath: /assets/sponsors/iseatz.png
-#   largeLogoPath: /assets/sponsors/iseatz.png
-#   description:
-#   website: http://www.iseatz.com/
+- name: Iseatz
+  smallLogoPath: /assets/sponsors/iseatz.png
+  largeLogoPath: /assets/sponsors/iseatz.png
+  description:
+  website: http://www.iseatz.com/
 
 # - name: Revelry
 #   smallLogoPath: /assets/sponsors/revelry.png
