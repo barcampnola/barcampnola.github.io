@@ -29,15 +29,17 @@
 
 - name: Sazerac Room
   slots:
-    - name: ?????
-      author: by you
+    - name: Challenges w Nola tech startups
+      author: by Sonny and Friends
       starts: "11:00"
-      double: true
+    - name: Text Editors The right tool for the right job.
+      author: by Brian Kustic
+      starts: "11:30"
     - name: Cooking with the Greek Hw to Make Baklava
       author: by Sia
       starts: "12:00"
-    - name: The Science (Benefits of Habit Formation)
-      author: by Chris Szeto
+    - name: 
+      author:
       starts: "12:30"
     - name: Lunch
       author: by our sponsors
@@ -46,12 +48,11 @@
     - name: The Golden Circle Simon Sinck
       author: by Bernard Fralias
       starts: "2:00"
-    - name: ?????
-      author: by you
+    - name: The science and benefits of Habit Formation
+      author: by Chris Szeto
       starts: "2:30"
-      double: true
-    - name: ?????
-      author: by you
+    - name: An Overview of Slam, 3d Scanning, and Depth Sensors
+      author: by 
       starts: "3:00"
       double: true
     - name: ?????
@@ -81,8 +82,8 @@
       author: by you
       starts: "3:00"
       double: true
-    - name: ?????
-      author: by you
+    - name: Personal Security on the Web
+      author: by
       starts: "4:00"
       double: true
 
@@ -91,8 +92,8 @@
     - name: What is the Future of the Technology Industry
       author: by Alba Huddleson
       starts: "11:00"
-    - name: ?????
-      author: by you
+    - name: Video Games Kids Might Like
+      author: by Terry Glass
       starts: "11:30"
     - name: What Makes a Great Developer
       author: by Matthew Turland
@@ -108,11 +109,11 @@
     - name: Distributed Systems in Elixer
       author:
       starts: "2:30"
-    - name: Quick Intro To Quantum Computation Nuts and Bolts
+    - name: Quick Intro To Quantum Computation Nuts...
       author: by Henry Fitzhugh
       starts: "3:00"
-      name: 
-      author: 
+    - name: empty
+      author: empty
       starts: "3:30"
     - name: ?????
       author: by you
@@ -163,6 +164,9 @@
     - name: NOPD Oversight And Accountability
       author: by ?
       starts: "12:00"
+    - name: Diversity in Tech
+      author: by Dominique Riley
+      starts: "12:30"
     - name: Lunch
       author: by our sponsors
       starts: "1:00"
