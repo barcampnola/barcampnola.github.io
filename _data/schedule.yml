@@ -113,13 +113,12 @@
     - name: Quick Intro To Quantum Computation Nuts...
       author: by Henry Fitzhugh
       starts: "3:00"
-    - name: empty
-      author: empty
+    - name: Disaster Prep for Real Lazy Peeps
+      author: Heather G.
       starts: "3:30"
-    - name: ?????
-      author: by you
+    - name: How to Repurpose Conference T-Shirts
+      author:
       starts: "4:00"
-      double: true
 
 - name: The Straight Up Room 240
   slots:
