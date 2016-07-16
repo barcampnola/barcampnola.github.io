@@ -55,10 +55,9 @@
       author: by 
       starts: "3:00"
       double: true
-    - name: ?????
-      author: by you
+    - name: Let's Plan a Coup
+      author:
       starts: "4:00"
-      double: true
 
 - name: Vieux Carre Room 122
   slots:
@@ -78,10 +77,12 @@
       author: by Vlad Zuzukin M.D.
       starts: "2:00"
       double: true
-    - name: ?????
-      author: by you
+    - name: How we Designed Escape My Room
+      author: by Andrew Preble
       starts: "3:00"
-      double: true
+    - name: How to Plan a BarCamp
+      author: by Jacqui Nelson
+      starts: "3:30"
     - name: Personal Security on the Web
       author: by
       starts: "4:00"
