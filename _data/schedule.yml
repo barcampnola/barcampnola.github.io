@@ -111,8 +111,8 @@
     - name: Quick Intro To Quantum Computation Nuts and Bolts
       author: by Henry Fitzhugh
       starts: "3:00"
-      name: ?
-      author: ?
+      name: 
+      author: 
       starts: "3:30"
     - name: ?????
       author: by you
@@ -143,7 +143,7 @@
     - name: ?????
       author: by you
       starts: "2:30"
-    - name: Protech Your Assets! - A Legal Primer For Start Ups
+    - name: Protech Your Assets! A Legal Primer For Start Ups
       author: by you
       starts: "3:00"
       double: true
@@ -154,7 +154,7 @@
 
 - name: The Last Word Room
   slots:
-    - name: The Pitch: Multii-Trillion Dollar Cloud-Based Financial System
+    - name: The Pitch Multii Tril Dollar Cloud-Based Financial System
       author: by Geoffry Gauchet
       starts: "11:00"
     - name: Regulating the Sharing Economy
@@ -170,10 +170,10 @@
     - name: ?????
       author: by you
       starts: "2:00"
-    - name: Education v. Training - Student Success through the lens of Complexity Theory
-      author: by G. Blake Williams
+    - name: Education v. Training Student Success through the lens of...
+      author: G. Blake Williams
       starts: "2:30"
-    - name: InfoSec - Integrity in Online Voting
+    - name: InfoSec Integrity in Online Voting
       author: by Sonny
       starts: "3:00"
       double: true
